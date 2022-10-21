@@ -1,0 +1,67 @@
+.portada{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.image{
+    width: 100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+
+}
+.textos{
+
+text-align: center;
+
+    
+}
+
+.textos h1{
+   
+    position: relative;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+   font-size: 70px;
+   margin-bottom: -25px;
+   margin-top: 150px;
+   
+}
+
+.textos h4{
+    position: relative;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;    
+}
+
+.portadas2{
+    height: 100%;
+    margin-top: -22px;
+    display: grid;
+   
+}
+
+.image2{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+}
+
+.texto-boton{
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+    
+}
+.texto-boton h1{
+    position: relative;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 70px;
+}
+
+.container2{
+    height: 800px;
+}

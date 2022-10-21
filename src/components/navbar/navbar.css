@@ -1,0 +1,50 @@
+
+
+.navbar {
+  margin-left: 80px;
+  width: 1000px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+  position: relative;
+  
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.nav li a {
+  
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  
+}
+
+.nav li a:hover {
+  background-color: #434343;
+  border-radius: 5px;
+ 
+}
+
+.nav > li {
+  float: left;
+  
+}
+
+ 
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}

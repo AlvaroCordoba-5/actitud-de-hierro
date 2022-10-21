@@ -1,0 +1,44 @@
+.button {
+  color: white;
+  background: #d36363;
+  position: relative;
+  
+}
+
+.principal{
+  width: 210px;
+  height: 50px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.button:hover{
+  background-color: white;
+  color:#d36363;
+  scale: 1.1;
+  transition: .8s;
+
+}
+
+.secundario{
+  width: 19em;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8em;
+  
+
+}
+
+.whatsapp{
+  position: sticky;
+  top: 0;
+  color:white;
+  background: #44c654;
+  border-radius: 100%;
+}
