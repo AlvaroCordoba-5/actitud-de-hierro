@@ -7,7 +7,7 @@ function navbar() {
     <div className="navbar">
       <ul className="nav">
         <li>
-          <a href="">Inicio</a>
+        <Link  to='/'>Inicio </Link>
         </li>
         <li>
           
@@ -15,7 +15,7 @@ function navbar() {
         </li>
 
         <li>
-          <a href="">Productos</a>
+        <Link  to='/productos'>Productos </Link>
           <ul>
             <li>
               <a href="">Pergolas</a>
@@ -52,10 +52,11 @@ function navbar() {
           </ul>
         </li>
         <li>
-          <a href="">Sobre nosotros</a>
+        <Link  to='/sobrenosotros'>Sobre nosotros </Link>
+          
         </li>
         <li>
-          <a href="">Contacto</a>
+        <Link  to='/contacto'>Contacto </Link>
         </li>
       </ul>
     </div>
