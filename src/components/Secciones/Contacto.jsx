@@ -2,6 +2,7 @@ import React from 'react';
 import Portadas from '../Portadas/Portadas';
 import imgcontacto from '../imagenes/contacto.png'
 import Formulario from '../Formulario/Formulario';
+import Boton2 from '../Botones/Boton2';
 
 function Contacto() {
   return (
@@ -10,6 +11,7 @@ function Contacto() {
     image={imgcontacto}
     texto='CONTACTO'
     />
+   
     <Formulario/>
     </>
   )
