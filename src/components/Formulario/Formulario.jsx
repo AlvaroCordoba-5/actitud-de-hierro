@@ -54,6 +54,7 @@ function Formulario() {
                 //value={form.name}
                 name="name"
                 id="name"
+                style={{marginRight:'5em'}}
                 //onChange={(e) => changeForm(e)}
               ></input>
             </div>
@@ -80,17 +81,19 @@ function Formulario() {
             ></input>
 
             <label>Mensaje</label>
-            <input className="msg"
+            <textarea className="msg"
               type="text"
-              size="text"
+              
               //value={form.msg}
               id="msg"
               name="msg"
               //onChange={(e) => changeForm(e)}
-            ></input>
+            ></textarea>
 
           </div>
-            <input class='button-form' type="submit"></input>
+            <input className='button-form' type="submit" value='Enviar'>
+                
+            </input>
         </form>
       </div>
     </>
