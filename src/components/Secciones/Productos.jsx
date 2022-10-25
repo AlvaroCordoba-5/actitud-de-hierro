@@ -1,6 +1,7 @@
 import React from 'react';
 import Portadas from '../Portadas/Portadas';
 import imgproductos from '../imagenes/productos.png'
+import Products from '../Products/Products'
 
 function Productos() {
   return (
@@ -9,6 +10,7 @@ function Productos() {
     image={imgproductos}
     texto='PRODUCTOS'
     />
+    <Products/>
     </>
   )
 }

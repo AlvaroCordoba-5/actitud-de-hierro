@@ -1,0 +1,36 @@
+.columna {
+  width: 22em;
+  background: black;
+  margin-left: 2.5em;
+  height: 22em;
+  margin-top: 3em;
+}
+
+.columna h1 {
+  margin-left: 1.2em;
+  font-family: "Zilla Slab";
+  font-style: normal;
+  color: white;
+}
+
+.columna li {
+  margin-top: 0.4em;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 0.9em;
+}
+
+.footer {
+  display: flex;
+  background: black;
+  
+}
+
+.redes{
+  display: flex;
+}
+
+.redes li{
+  margin: 1em;
+}
