@@ -1,0 +1,73 @@
+.container-galeria {
+  width: 100em;
+  margin: auto;
+}
+
+.container1{
+    display: flex;
+}
+.container1 img {
+  width: 48%;
+  margin: 1em;
+}
+
+.container1-2 img{
+    width: 96%;
+    margin: 1em;
+}
+
+.container22 img {
+  width: 98%;
+  height: 30em;
+  margin: 1em;
+}
+
+.container3 {
+  display: flex;
+}
+
+.container3 img {
+  width: 45%;
+  margin: 1em;
+}
+
+.container3-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.container3-img img {
+  width: 96%;
+}
+
+.last-cont img{
+width: 96%;
+height: 96%;
+}
+
+.name {
+  position: absolute;
+  margin-left: 2em;
+  margin-top: 1.8em;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+.see-more:hover{
+    visibility: visible;
+    opacity: 1;
+    background: red;
+}
+
+.see-more{
+ 
+    position:absolute;
+  opacity: 0;
+visibility: hidden;
+-webkit-transition: opacity 600ms, visibility 600ms;
+transition: opacity 600ms, visibility 600ms;
+    
+    
+  }
+    
