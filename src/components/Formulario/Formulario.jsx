@@ -52,6 +52,8 @@ function Formulario() {
               <input
                 type="text"
                 //value={form.name}
+                minlength="2"
+                required 
                 name="name"
                 id="name"
                 style={{marginRight:'5em'}}
@@ -64,6 +66,10 @@ function Formulario() {
               <input
                 type="tel"
                 // value={form.tel}
+                minlength="6"
+                pattern="[0-9]+"
+                title='Ingresa un numero'
+                required
                 id="tel"
                 name="tel"
                 //onChange={(e) => changeForm(e)}
@@ -75,7 +81,9 @@ function Formulario() {
             <input
               type="email"
               //value={form.email}
+              required
               name="email"
+              pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
               //onChange={(e) => changeForm(e)}
               id="email"
             ></input>
@@ -83,7 +91,7 @@ function Formulario() {
             <label>Mensaje</label>
             <textarea className="msg"
               type="text"
-              
+              required
               //value={form.msg}
               id="msg"
               name="msg"

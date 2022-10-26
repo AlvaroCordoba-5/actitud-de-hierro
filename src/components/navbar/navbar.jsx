@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { BiChevronDown } from "react-icons/bi";
 import "./navbar.css";
 
 function navbar() {
@@ -15,7 +16,7 @@ function navbar() {
         </li>
 
         <li>
-        <Link  to='/productos'>Productos </Link>
+        <Link  to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
           <ul>
             <li>
               <a href="">Pergolas</a>
