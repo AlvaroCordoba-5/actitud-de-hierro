@@ -69,6 +69,7 @@ function galeriaProyectos({
          <h2 className="name">Lorem ipsum</h2>
           <img src={img8} alt="img" />
           </div>
+       
         </div>
       </div>
     </>

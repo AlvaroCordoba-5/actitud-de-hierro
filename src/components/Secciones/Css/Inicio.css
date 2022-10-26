@@ -1,0 +1,39 @@
+.servicios{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100em;
+    height: 50em;
+}
+
+.container-img-servicios{
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    
+    
+}
+
+.img-servicios{
+    width: 40em;
+}
+
+.img-servicios img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.img-servicios p{
+    font-family:'Poppins';
+    font-style: normal;
+}
+
+.proyectos{
+    margin-top: -12em;
+}
+.projects img{
+    object-fit: cover;
+    
+}

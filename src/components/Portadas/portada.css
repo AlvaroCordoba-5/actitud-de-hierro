@@ -1,7 +1,8 @@
 .portada{
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 65em;
+    margin-bottom: 18em;
 }
 .image{
     width: 100%;
