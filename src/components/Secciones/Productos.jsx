@@ -3,12 +3,14 @@ import Portadas from "../Portadas/Portadas";
 import imgproductos from "../imagenes/productos.png";
 import Products from "../Products/Products";
 import Footer from "../Footer/Footer";
+import Whatsapp from "../Botones/Whatsapp";
 import "./Css/Productos.css";
 
 function Productos() {
   return (
     <>
       <Portadas image={imgproductos} texto="PRODUCTOS" />
+      <Whatsapp/>
       <div className="list-products">
         <div className="element-products">
           <h4>Pergolas</h4>

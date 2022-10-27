@@ -14,55 +14,70 @@ function galeriaProductos({
 }) {
   return (
     <>
+    <div style={{marginLeft:'16.9em'}}>
+          <h1
+            style={{
+              fontFamily: "Zilla Slab",
+              marginBottom: "2em",
+              fontSize: "3em",
+            }}
+          >
+            Productos
+          </h1>
+        </div>
       <div className="container-galeria-productos">
-        <div className="container3">
-          <div className="last-cont">
+        
+
+        <div className="container-prod">
+          <div className="one-prod">
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img3} alt="img" />
+            <img src={img1} alt="img" />
           </div>
-          <div className="container3-img">
-            <div>
+
+          <div className="two-prod">
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img1} alt="img" />
+              <img src={img3} alt="img" />
             </div>
-            <div>
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
               <img src={img2} alt="img" />
             </div>
           </div>
         </div>
 
-        <div className="container3">
-          <div className="container3-img">
-            <div>
+        <div className="container-prod">
+          <div className="two-prod">
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img4} alt="img" />
+              <img src={img1} alt="img" />
             </div>
-            <div>
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img5} alt="img" />
+              <img src={img2} alt="img" />
             </div>
           </div>
-          <div className="last-cont">
+
+          <div className="one-prod">
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img6} alt="img" />
+            <img src={img3} alt="img" />
           </div>
         </div>
 
-        <div className="container3">
-          <div className="last-cont">
+        <div className="container-prod">
+          <div className="one-prod">
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img8} alt="img" />
+            <img src={img3} alt="img" />
           </div>
 
-          <div className="container3-img">
-            <div>
+          <div className="two-prod">
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img7} alt="img" />
+              <img src={img1} alt="img" />
             </div>
-            <div>
+            <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img9} alt="img" />
+              <img src={img2} alt="img" />
             </div>
           </div>
         </div>

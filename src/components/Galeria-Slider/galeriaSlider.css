@@ -1,0 +1,44 @@
+.container-slider{
+    display: flex;
+    height:100em;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-left: 10em;
+   
+}
+
+.slider-card{
+    position: relative;
+    scroll-snap-align: center;
+    margin: 50px 20px 0
+}
+
+.slider-card img{
+    width: 50em;
+    height: 90%;
+}
+
+.proyectos{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100em;
+    height: 60em;
+    margin-bottom: 10em;
+}
+
+.container-slider::-webkit-scrollbar {
+    background-color: #d36363;
+    height: 2em;
+    
+    
+    
+}
+
+.container-slider::-webkit-scrollbar-thumb {
+    background-color:#5c4b4b;
+    
+   
+}

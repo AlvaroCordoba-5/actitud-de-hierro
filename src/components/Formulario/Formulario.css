@@ -8,9 +8,10 @@ margin-top: 0.5em;
 
 .container-form{
     height: 500px;
-    width: 800px;
+    width: 45em;
     display: flex;
     justify-content: center;
+    
      
 }
 

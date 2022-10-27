@@ -7,11 +7,13 @@ import { BiAt } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
 import "./Css/Contacto.css";
 import Footer from "../Footer/Footer";
+import Whatsapp from "../Botones/Whatsapp";
 
 function Contacto() {
   return (
     <>
       <Portadas image={imgcontacto} texto="CONTACTO" />
+      <Whatsapp/>
 
       <div className="container-contacto">
         <h1>Solicita la informacion que necesitas</h1>

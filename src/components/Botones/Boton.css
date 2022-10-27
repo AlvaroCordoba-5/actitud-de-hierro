@@ -38,9 +38,16 @@
 
 }
 
+.container-whatsapp{
+  position: sticky; 
+  top: 52em;
+  display: flex;
+    justify-content: flex-end;
+    margin-right: 2em;
+    
+}
+
 .whatsapp{
-  position: sticky;
-  top: 0;
   color:white;
   background: #44c654;
   border-radius: 100%;

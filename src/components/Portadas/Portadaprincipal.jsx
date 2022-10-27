@@ -21,7 +21,7 @@ function Portadaprincipal() {
         texto={"Contactanos"}
         
         ></Boton>
-        <Whatsapp></Whatsapp>
+       
       </div>
     </>
   );

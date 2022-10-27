@@ -4,12 +4,14 @@ import imgproyectos from "../imagenes/proyectos.png";
 import GaleriaProyectos from "../Galerias/galeriaProyectos";
 import portadaimg from "../imagenes/portada.png";
 import Formulario from "../Formulario/Formulario";
+import Whatsapp from "../Botones/Whatsapp";
 import Footer from "../Footer/Footer";
 
 function Proyectos() {
   return (
     <>
       <Portadas image={imgproyectos} texto="PROYECTOS" />
+      <Whatsapp/>
       <div
         style={{
           display: "flex",

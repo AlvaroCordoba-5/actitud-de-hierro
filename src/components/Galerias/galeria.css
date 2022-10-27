@@ -71,7 +71,46 @@ transition: opacity 600ms, visibility 600ms;
   }
 
   .container-galeria-productos{
-    width: 100em;
-    margin: auto;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95em;
+  }
+
+  .container-prod{
+    width: 90%;
+    display: flex;
+   
+
+  }
+
+  .one-prod{
+    width: 50%;
+    height: 55em;
+  }
+
+  .one-prod img{
+    width: 98%;
+    height: 100%;
+    object-fit: cover;
+
+    
+  }
+
+  .two-prod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+  }
+
+  .two-prod-img img{
+    width: 98%;
+    height: 26.9em;
+    margin-bottom: 1em;
+    object-fit: cover;
   }
     
