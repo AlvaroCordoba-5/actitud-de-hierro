@@ -16,7 +16,7 @@
     margin: 1em;
 }
 
-.container22 img {
+.images22 {
   width: 98%;
   height: 30em;
   margin: 1em;
@@ -26,9 +26,10 @@
   display: flex;
 }
 
-.container3 img {
-  width: 45%;
-  margin: 1em;
+.image33 {
+  width: 95%;
+ margin-left: 1em;
+  height: 100%;
 }
 
 .container3-img {
@@ -38,6 +39,7 @@
 
 .container3-img img {
   width: 96%;
+  margin-left: 1em;
 }
 
 .last-cont img{
@@ -114,3 +116,4 @@ transition: opacity 600ms, visibility 600ms;
     object-fit: cover;
   }
     
+ 

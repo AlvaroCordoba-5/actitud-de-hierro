@@ -11,7 +11,7 @@ function Proyectos() {
   return (
     <>
       <Portadas image={imgproyectos} texto="PROYECTOS" />
-      <Whatsapp/>
+      <Whatsapp />
       <div
         style={{
           display: "flex",
@@ -41,10 +41,26 @@ function Proyectos() {
             alignItems: "center",
           }}
         >
-          <h4 style={{ fontFamily: "Poppins", fontStyle: "normal",fontWeight:'300',marginBottom:'-0.5em'}}>
+          <h4
+            style={{
+              fontFamily: "Poppins",
+              fontStyle: "normal",
+              fontWeight: "300",
+              marginBottom: "-0.5em",
+            }}
+          >
             ¿Necesitas realizar un trabajo personalizado en hierro?
           </h4>
-          <h1 style={{ fontFamily: "Zilla Slab", fontStyle: "normal",fontWeight:'700',marginBottom:'2em'}}>Contactanos</h1>
+          <h1
+            style={{
+              fontFamily: "Zilla Slab",
+              fontStyle: "normal",
+              fontWeight: "700",
+              marginBottom: "2em",
+            }}
+          >
+            Contactanos
+          </h1>
           <Formulario />
         </div>
       </div>

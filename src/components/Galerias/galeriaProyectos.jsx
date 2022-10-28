@@ -1,4 +1,5 @@
 import React from "react";
+import ModalImage from "react-modal-image";
 import "./galeria.css";
 
 function galeriaProyectos({
@@ -18,58 +19,64 @@ function galeriaProyectos({
       <div className="container-galeria">
        
         <div className="container1">
-            <div className="container1-2">
-           <a className="see-more" href="">ver mas</a>
+         
+         <div className="container1-2">
             <h2 className="name">Lorem ipsum</h2>
-          <img src={img1} alt="img" />
+            <ModalImage small={img1} medium={img1} alt="Lorem ipsum" />
           </div>
+          
           <div className="container1-2">
-          <h2 className="name">Lorem ipsum</h2>
-          <img src={img2} alt="img" />
-          </div>
-        </div>
-
-        <div className="container22">
-        <h2 className="name">Lorem ipsum</h2>
-          <img src={img3} alt="img" />
-        </div>
-
-        <div className="container3">
-        <h2 className="name">Lorem ipsum</h2>
-          <img src={img4} alt="img" />
-          <div className="container3-img">
-            <div>
-          <h2 className="name">Lorem ipsum</h2>
-            <img src={img5} alt="img" />
-            </div>
-            <div>
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img6} alt="img" />
-            </div>
-          </div>
-        </div>
-
-        <div className="container22">
-        <h2 className="name">Lorem ipsum</h2>
-          <img src={img7} alt="img" />
-        </div>
-
-        <div className="container3">
-          <div className="container3-img">
-            <div>
-          <h2 className="name">Lorem ipsum</h2>
-            <img src={img9} alt="img" />
-            </div>
-            <div>
-            <h2 className="name">Lorem ipsum</h2>
-            <img src={img10} alt="img" />
-            </div>
-          </div>
-         <div className="last-cont">
-         <h2 className="name">Lorem ipsum</h2>
-          <img src={img8} alt="img" />
+            <ModalImage small={img1} medium={img1} alt="Lorem ipsum" />
           </div>
        
+        </div>
+
+       
+        <div className="container22">
+          <h2 className="name">Lorem ipsum</h2>
+          <ModalImage className='images22' small={img1} medium={img1} alt="Lorem ipsum" />
+        </div>
+
+
+
+        <div className="container3">
+          <h2 className="name">Lorem ipsum</h2>
+          <ModalImage className='image33' small={img1} medium={img1} alt="Lorem ipsum" />
+          
+          <div className="container3-img">
+            <div>
+              <h2 className="name">Lorem ipsum</h2>
+              <ModalImage  small={img1} medium={img1} alt="Lorem ipsum" />
+            </div>
+            <div>
+
+              <h2 className="name">Lorem ipsum</h2>
+              <ModalImage small={img1} medium={img1} alt="Lorem ipsum" />
+            </div>
+          </div>
+        </div>
+
+        <div className="container22">
+          <h2 className="name">Lorem ipsum</h2>
+          <ModalImage className='images22' small={img1} medium={img1} alt="Lorem ipsum" />
+        </div>
+
+        <div className="container3">
+          <h2 className="name">Lorem ipsum</h2>
+          <ModalImage className='image33' small={img1} medium={img1} alt="Lorem ipsum" />
+          
+          <div className="container3-img">
+            <div>
+              <h2 className="name">Lorem ipsum</h2>
+              <ModalImage  small={img1} medium={img1} alt="Lorem ipsum" />
+            </div>
+            <div>
+
+              <h2 className="name">Lorem ipsum</h2>
+              <ModalImage small={img1} medium={img1} alt="Lorem ipsum" />
+            </div>
+          </div>
         </div>
       </div>
     </>
