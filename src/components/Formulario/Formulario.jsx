@@ -52,7 +52,7 @@ function Formulario() {
               <input
                 type="text"
                 //value={form.name}
-                minlength="2"
+                minLength="2"
                 required 
                 name="name"
                 id="name"
@@ -66,7 +66,7 @@ function Formulario() {
               <input
                 type="tel"
                 // value={form.tel}
-                minlength="6"
+                minLength="6"
                 pattern="[0-9]+"
                 title='Ingresa un numero'
                 required

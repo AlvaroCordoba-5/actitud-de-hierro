@@ -11,8 +11,10 @@ function Portadaprincipal() {
     
       <div className="portada" >
         
-          <img className="image" src={imagePortada}/>
+        
+          
       <Navbar/>
+        
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>
           <h4>Trabajos de herrería</h4>

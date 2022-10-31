@@ -53,3 +53,10 @@
   background: #44c654;
   border-radius: 100%;
 }
+
+@media screen and (max-width: 680px) {
+  .container-whatsapp{
+    margin: 0 0 0 99em;
+    top: 120em;
+  }
+}

@@ -1,13 +1,13 @@
 
 
 .navbar {
-  margin-left: 80px;
-  width: 1000px;
+  margin-left: 5em;
+  width: 62.5em;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
-font-size: 15px;
-line-height: 30px;
+font-size:0.93em;
+line-height: 1.875em;
   position: relative;
   margin-top: 2em;
   

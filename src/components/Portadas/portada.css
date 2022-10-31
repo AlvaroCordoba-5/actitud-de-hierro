@@ -1,8 +1,16 @@
 .portada{
     display: flex;
     flex-direction: column;
-    height: 55em;
+    height: 62em;
     margin-bottom: 10em;
+    background-image: url('../imagenes/portada.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-size: auto;
+
+    
 }
 
 
@@ -15,9 +23,7 @@
 
 }
 @media screen and (max-width: 680px) {
-    .image{
-     width: auto;
-    }
+    
    }
 
 
@@ -34,6 +40,8 @@
 @media screen and (max-width: 680px) {
     .portada{
         width: max-content;
+    background-position: inherit;
+    background-size: contain;
     }
     
     .textos{
