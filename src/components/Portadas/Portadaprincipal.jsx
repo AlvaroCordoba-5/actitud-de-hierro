@@ -16,11 +16,12 @@ function Portadaprincipal() {
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>
           <h4>Trabajos de herrería</h4>
-        </div>
-        <Boton 
+          <Boton 
         texto={"Contactanos"}
         
         ></Boton>
+        </div>
+        
        
       </div>
     </>

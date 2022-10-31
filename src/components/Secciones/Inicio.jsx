@@ -9,7 +9,7 @@ import "./Css/Inicio.css";
 
 function Inicio() {
   return (
-    <> <div>
+    <>
       <Portadaprincipal />
  
 
@@ -95,7 +95,7 @@ function Inicio() {
 <Formulario/>
 </div>
 <Footer/>
-</div>
+
     </>
   );
 }

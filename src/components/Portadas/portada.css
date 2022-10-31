@@ -4,6 +4,9 @@
     height: 55em;
     margin-bottom: 10em;
 }
+
+
+
 .image{
     width: 100%;
     height:100%;
@@ -11,21 +14,42 @@
     position: absolute;
 
 }
+@media screen and (max-width: 680px) {
+    .image{
+     width: auto;
+    }
+   }
+
+
 .textos{
 
-text-align: center;
-
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 48em;
+  
+    margin: 3.45em auto;
     
 }
+@media screen and (max-width: 680px) {
+    .portada{
+        width: max-content;
+    }
+    
+    .textos{
+        width: 100em;
+    }
+   }
+
 
 .textos h1{
    
     position: relative;
     color: white;
     font-family: 'Zilla Slab', serif;
-   font-size: 70px;
-   margin-bottom: -25px;
-   margin-top: 150px;
+   font-size: 4.37em;
+   margin-bottom: -1.56rem;
+   
    
 }
 
@@ -33,8 +57,9 @@ text-align: center;
     position: relative;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;    
+    font-size: 1.55em;
+    letter-spacing: 0.08em;
+    font-weight: 400; 
 }
 
 .portadas2{
