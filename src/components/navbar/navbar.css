@@ -49,3 +49,10 @@ ol {
 .nav li:hover > ul {
   display: block;
 }
+
+@media screen and (max-width: 680px) {
+  .navbar{
+    width: 55em;
+    margin-left: 0;
+  }
+}

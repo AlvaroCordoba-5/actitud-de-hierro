@@ -92,7 +92,7 @@ function Inicio() {
             ¿Necesitas realizar un trabajo personalizado en hierro?
           </h4>
           <h1 style={{ fontFamily: "Zilla Slab", fontStyle: "normal",fontWeight:'700',marginBottom:'2em'}}>Contactanos</h1>
-<Formulario/>
+{/*<Formulario/>*/}
 </div>
 <Footer/>
 

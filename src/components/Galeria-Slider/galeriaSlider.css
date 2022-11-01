@@ -42,3 +42,9 @@
     
    
 }
+
+@media screen and (max-width: 680px) {
+    .container-slider{
+        margin-left: 2em;
+    }
+}

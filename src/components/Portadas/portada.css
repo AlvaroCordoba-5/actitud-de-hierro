@@ -22,9 +22,7 @@
     position: absolute;
 
 }
-@media screen and (max-width: 680px) {
-    
-   }
+
 
 
 .textos{
@@ -33,21 +31,9 @@
     text-align: center;
     flex-direction: column;
     width: 48em;
-  
-    margin: 3.45em auto;
+   margin: 3.45em auto;
     
 }
-@media screen and (max-width: 680px) {
-    .portada{
-        width: max-content;
-    background-position: inherit;
-    background-size: contain;
-    }
-    
-    .textos{
-        width: 100em;
-    }
-   }
 
 
 .textos h1{
@@ -99,3 +85,22 @@
 .container2{
     height: 800px;
 }
+@media screen and (max-width: 680px) {
+    .portada{
+        height: 42em;
+        width: 51.8em;
+    background-position: inherit;
+    background-size: contain;
+    background-attachment: inherit; 
+    margin-bottom: 0em;
+    }
+    
+    .textos{
+        width: 42em;
+        margin: 2.45em auto;
+    }
+    .textos h1{
+        font-size: 3.37em;
+        
+    }
+   }

@@ -56,7 +56,10 @@
 
 @media screen and (max-width: 680px) {
   .container-whatsapp{
-    margin: 0 0 0 99em;
-    top: 120em;
+    margin: 0;
+    top: 105em;
+  }
+  .principal{
+    margin-top: 0;
   }
 }
