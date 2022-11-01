@@ -1,6 +1,7 @@
 
 
 .servicios{
+    
     margin:auto;
     display: flex;
     flex-direction: column;
@@ -8,6 +9,13 @@
     width: 100em;
     height: 50em;
     margin-bottom: 10em;
+}
+
+.servicios h1{
+    margin-left: 2.4em;
+    font-family:"Zilla Slab";
+    margin-bottom: 2em;
+    font-size: 3em,
 }
 
 .container-img-servicios{
@@ -44,6 +52,12 @@
   .servicios{
     width: 50em;
     height: 80em;
+    margin-top:-9em;
+    
+  }
+  .servicios h1{
+    font-size: 2.5em;
+    margin-left: 0.3em;
   }
 
     .container-img-servicios{
