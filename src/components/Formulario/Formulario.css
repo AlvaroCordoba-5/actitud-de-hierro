@@ -92,5 +92,11 @@ outline: none;
     }
     .email-msg input {
         width: 100%;
-    };
+    }
+    .email-msg textarea{
+        width: 100%;
+    }
+    .button-form{
+        width: 102%;
+    }
 }

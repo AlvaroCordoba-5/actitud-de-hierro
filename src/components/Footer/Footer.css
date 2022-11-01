@@ -34,6 +34,9 @@
 .redes li{
   margin: 1em;
 }
+.columna ul{
+  margin-right: 4em;
+}
 
 @media screen and (max-width: 680px) {
   .footer{
@@ -42,6 +45,7 @@
   }
   .columna{
     margin: auto;
+    width: max-content;
   }
   .columna h1{
     text-align: center;
