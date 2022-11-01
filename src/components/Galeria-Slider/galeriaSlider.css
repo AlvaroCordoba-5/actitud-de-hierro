@@ -49,13 +49,18 @@
     margin-left: 2em;
   }
   .container-slider::-webkit-scrollbar {
-    background-color: white;
+    visibility: hidden;
   }
   .container-slider::-webkit-scrollbar-thumb {
-    background-color: white;
+    visibility: hidden;
   }
   .proyectos h1{
     font-size: 2.5em;
     margin-left: 0.3em;
+  }
+  .slider-card img{
+    width: 30em;
+    height: 60%;
+    object-fit: cover;
   }
 }

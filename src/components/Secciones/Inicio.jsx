@@ -82,11 +82,11 @@ function Inicio() {
  img3="https://image.shutterstock.com/image-photo/two-metal-chairs-table-painted-600w-2175566317.jpg"
  
 />
-<div style={{display:'flex',justifyContent:'center',marginTop:'10em',flexDirection:'column',alignItems:'center'}}>
-<h4 style={{ fontFamily: "Poppins", fontStyle: "normal",fontWeight:'300',marginBottom:'-0.5em'}}>
+<div className="inicio-formulario" >
+<h4 >
             ¿Necesitas realizar un trabajo personalizado en hierro?
           </h4>
-          <h1 style={{ fontFamily: "Zilla Slab", fontStyle: "normal",fontWeight:'700',marginBottom:'2em'}}>Contactanos</h1>
+          <h1>Contactanos</h1>
 <Formulario/>
 </div>
 <Footer/>
