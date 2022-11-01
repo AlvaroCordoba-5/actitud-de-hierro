@@ -6,12 +6,7 @@ function galeriaSlider() {
     <>
     <div className="proyectos">
 <h1
-          style={{
-            marginLeft: "2.2em",
-            fontFamily: "Zilla Slab",
-            marginBottom: "0.5em",
-            fontSize: "3em",
-          }}
+         
         >
           Nuestro Proyectos
         </h1>

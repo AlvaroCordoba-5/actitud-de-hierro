@@ -3,17 +3,17 @@
   margin: auto;
 }
 
-.container1{
-    display: flex;
+.container1 {
+  display: flex;
 }
 .container1 img {
   width: 48%;
   margin: 1em;
 }
 
-.container1-2 img{
-    width: 96%;
-    margin: 1em;
+.container1-2 img {
+  width: 96%;
+  margin: 1em;
 }
 
 .images22 {
@@ -28,7 +28,7 @@
 
 .image33 {
   width: 95%;
- margin-left: 1em;
+  margin-left: 1em;
   height: 100%;
 }
 
@@ -42,9 +42,9 @@
   margin-left: 1em;
 }
 
-.last-cont img{
-width: 96%;
-height: 96%;
+.last-cont img {
+  width: 96%;
+  height: 96%;
 }
 
 .name {
@@ -56,68 +56,77 @@ height: 96%;
   font-style: normal;
 }
 
-.see-more:hover{
-    visibility: visible;
-    opacity: 1;
-    background: red;
+.see-more:hover {
+  visibility: visible;
+  opacity: 1;
+  background: red;
 }
 
-.see-more{
- 
-    position:absolute;
+.see-more {
+  position: absolute;
   opacity: 0;
-visibility: hidden;
--webkit-transition: opacity 600ms, visibility 600ms;
-transition: opacity 600ms, visibility 600ms;
-    
-  }
+  visibility: hidden;
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+}
 
-  .container-galeria-productos{
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 95em;
-  }
+.container-galeria-productos {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95em;
+}
 
-  .container-prod{
-    width: 90%;
-    display: flex;
-   
+.container-prod {
+  width: 90%;
+  display: flex;
+}
 
-  }
+.one-prod {
+  width: 50%;
+  height: 55em;
+}
 
-  .one-prod{
-    width: 50%;
-    height: 55em;
-  }
+.one-prod img {
+  width: 98%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  .one-prod img{
-    width: 98%;
-    height: 100%;
-    object-fit: cover;
+.two-prod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
 
-    
-  }
+.two-prod-img img {
+  width: 98%;
+  height: 26.9em;
+  margin-bottom: 1em;
+  object-fit: cover;
+}
+.name-productos {
+  margin-left: 16.9em;
+}
+.name-productos h1 {
+  font-family: "Zilla Slab";
+  margin-bottom: 2em;
+  font-size: 3em;
+}
 
-  .two-prod{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
+@media screen and (max-width: 680px) {
+  .container-galeria-productos {
+    width: 50em;
   }
-
-  .two-prod-img img{
-    width: 98%;
-    height: 26.9em;
-    margin-bottom: 1em;
-    object-fit: cover;
+  .name-productos {
+    margin-left: 0.3em;
   }
-    
-  @media screen and (max-width: 680px) {
-    .container-galeria-productos{
-      width: 50em;
-    }
+  .name-productos h1{
+    font-size: 2.5em;
+    margin-left: 0.3em;
   }
+}

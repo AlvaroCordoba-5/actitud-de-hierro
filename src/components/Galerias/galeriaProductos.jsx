@@ -14,13 +14,8 @@ function galeriaProductos({
 }) {
   return (
     <>
-    <div style={{marginLeft:'16.9em'}}>
+    <div className='name-productos' >
           <h1
-            style={{
-              fontFamily: "Zilla Slab",
-              marginBottom: "2em",
-              fontSize: "3em",
-            }}
           >
             Productos
           </h1>
