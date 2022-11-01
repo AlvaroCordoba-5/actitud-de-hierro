@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../navbar/navbar";
 import Boton2 from "../Botones/Boton2";
 import { BsWhatsapp } from "react-icons/bs";
+import './portada.css'
 
 function Portadas({ image, texto }) {
   return (

@@ -58,13 +58,13 @@
 
 .portadas2{
     height: 100%;
-    margin-top: -22px;
+    margin-top: 1,375em;
     display: grid;
    
 }
 
 .image2{
-    height: 700px;
+    height: 43,75em;
     width: 100%;
     position: absolute;
 }
@@ -72,18 +72,18 @@
 .texto-boton{
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    margin-left: 150px
     
 }
 .texto-boton h1{
     position: relative;
     color: white;
     font-family: 'Zilla Slab', serif;
-    font-size: 70px;
+    font-size: 100px;
 }
 
 .container2{
-    height: 800px;
+    height: 50em;
 }
 @media screen and (max-width: 680px) {
     .portada{
@@ -102,5 +102,15 @@
     .textos h1{
         font-size: 3.37em;
         
+    }
+    .container2{
+        height: 25em;
+    }
+    .texto-boton{
+        margin-top: -8em;
+    margin-left: 6em;
+    }
+    .texto-boton h1{
+        font-size: 3em;
     }
    }
