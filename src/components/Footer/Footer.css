@@ -34,3 +34,20 @@
 .redes li{
   margin: 1em;
 }
+
+@media screen and (max-width: 680px) {
+  .footer{
+    flex-direction: column;
+  }
+  .columna{
+    margin: auto;
+  }
+  .columna h1{
+    text-align: center;
+    margin:1em auto;
+  }
+  .columna li {
+    text-align: center;
+    
+  }
+}
