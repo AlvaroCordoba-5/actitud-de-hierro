@@ -35,3 +35,11 @@ line-height: 1.8em;
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width: 680px) {
+    .form-info{
+        flex-direction: column-reverse;
+        font-size: 13.9px;
+        align-items: center;
+    }
+}

@@ -9,7 +9,7 @@
 .principal{
   width: 13.125em;
   height: 3.125em;
-  padding: 4px;
+  padding: 0.25em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@
 
 .secundario{
   width: 19em;
-  height: 40px;
+  height: 2.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,7 @@
 @media screen and (max-width: 680px) {
   .container-whatsapp{
     margin-left: 50em;
-    top: 0;
+    bottom: 0;
   }
   .principal{
     margin-top: 0;
