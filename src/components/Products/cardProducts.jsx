@@ -13,9 +13,9 @@ const handlesubmit=()=>window.open(`http://api.whatsapp.com/send?phone=+54911239
           <img src={img} alt='img' />
           <p>{text}</p>
           
-          <input onClick={handlesubmit} type="submit" value="Enviar Mensaje" />
           
         </div>
+          <input onClick={handlesubmit} type="submit" value="Enviar Mensaje" />
       </div>
     </>
   );

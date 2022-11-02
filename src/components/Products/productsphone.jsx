@@ -5,7 +5,7 @@ import { BiChevronDown } from "react-icons/bi";
 import { RiArrowUpSLine } from "react-icons/ri";
 
 
-function Products({ product, title, img, text }) {
+function Productsphone({ product, title, img, text }) {
   const [products, setProducts] = useState(false);
 
   const handleChange = () => setProducts(!products);
@@ -18,11 +18,10 @@ function Products({ product, title, img, text }) {
         </h1>
         {products === false ? (
           <div>
-            <div className="container-products">
+            <div className="container-products2">
               <CardProducts title={title} img={img} text={text} />
               <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
+              
             </div>
             <div className="ver-mas">
               <input
@@ -36,17 +35,15 @@ function Products({ product, title, img, text }) {
         ) : null}
         {products === true ? (
           <>
-            <div className="container-products">
+            <div className="container-products2">
               <CardProducts title={title} img={img} text={text} />
               <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
+              
             </div>
-            <div className="container-products">
+            <div className="container-products2">
               <CardProducts title="mesa2" img={img} text={text} />
               <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
-              <CardProducts title={title} img={img} text={text} />
+             
             </div>
             <div className="ver-mas">
               <RiArrowUpSLine></RiArrowUpSLine>
@@ -62,4 +59,4 @@ function Products({ product, title, img, text }) {
     </>
   );
 }
-export default Products;
+export default Productsphone;
