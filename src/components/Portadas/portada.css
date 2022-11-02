@@ -109,6 +109,7 @@
     .texto-boton{
         margin-top: -8em;
     margin-left: 6em;
+    width: 70%;
     }
     .texto-boton h1{
         font-size: 3em;

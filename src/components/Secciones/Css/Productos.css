@@ -1,19 +1,25 @@
-.list-products{
-    display: flex;
-    justify-content: center;
+.list-products {
+  display: flex;
+  justify-content: center;
 }
 
-.element-products{
-    display: flex;
-    margin-right: 1.5em;
+.element-products {
+  display: flex;
+  margin-right: 1.5em;
 }
 
-.element-products h6{
-    margin-left: 1.2em;
+.element-products h6 {
+  margin-left: 1.2em;
 }
 
-.element-products h4{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
+.element-products h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+}
+.productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
