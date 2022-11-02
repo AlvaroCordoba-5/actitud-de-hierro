@@ -8,16 +8,7 @@ import Whatsapp from "../Botones/Whatsapp";
 import "./Css/Inicio.css";
 
 function Inicio() {
-  let navegador = navigator.userAgent;
- { /*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    console.log('estamos desde un celu')
-  }else{
-    console.log('estamos desde una compu')
-  }*/}
-
-  if (window.innerWidth <= 768) {
-    console.log("Es un móvil");
-}
+ 
   return (
     <>
       <Portadaprincipal />

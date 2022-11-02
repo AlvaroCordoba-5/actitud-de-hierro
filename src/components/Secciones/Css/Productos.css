@@ -23,9 +23,19 @@
   align-items: center;
   flex-direction: column;
 }
+.productos-phone{
+  display: none;
+}
 
 @media screen and (max-width: 680px) {
   .list-products { 
     display: none; 
   }
+  .productos{
+    display: none;
+  }
+  .productos-phone{
+    display: flex;
+  }
+
 }

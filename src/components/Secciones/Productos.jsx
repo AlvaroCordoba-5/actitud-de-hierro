@@ -49,7 +49,8 @@ function Productos() {
           <h4>Escaleras y barandas</h4>
         </div>
       </div>
-      {window.innerWidth >= 768 ? (
+    
+      
         <div className="productos">
           <Products
             product="Pergolas"
@@ -115,7 +116,8 @@ function Productos() {
     and typesetting industry. Lorem Ipsum has been the industry"
           />
         </div>
-      ) : (
+      
+        <div className="productos-phone">
         <Productsphone
           product="Pergolas"
           title="Mesa Turkif"
@@ -123,7 +125,8 @@ function Productos() {
           text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
     and typesetting industry. Lorem Ipsum has been the industry"
         />
-      )}
+        </div>
+      
       <Footer />
     </>
   );

@@ -2,11 +2,13 @@ import React from "react";
 import Navbar from "../navbar/navbar";
 import Boton2 from "../Botones/Boton2";
 import { BsWhatsapp } from "react-icons/bs";
+import MenuResponsive from "../navbar/menu-responsive";
 import './portada.css'
 
 function Portadas({ image, texto }) {
   return (
     <div className="container2">
+      <MenuResponsive/>
       <div className="portadas2">
         <img className="image2" src={image} />
         <Navbar />
