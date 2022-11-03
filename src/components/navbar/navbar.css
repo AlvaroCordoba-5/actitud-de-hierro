@@ -52,6 +52,7 @@ ol {
 
 /*NAVBAR PHONE*/
 
+
 .navbar-responsive{
   display: flex;
   flex-direction: column;
@@ -80,6 +81,10 @@ line-height: 1em;
 .view{
   display: none;
 }
+.none{
+  display: none;
+}
+
 .button-navbar{
   display: none;
   flex-direction: column;
@@ -117,7 +122,7 @@ line-height: 1em;
 
 @media screen and (max-width: 680px) {
   .navbar{
-    display: none;
+    
     width: 40em;
     margin-left: 0;
   }

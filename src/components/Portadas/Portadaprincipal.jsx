@@ -12,11 +12,11 @@ function Portadaprincipal() {
     <>
     
       <div className="portada" >
+         <Navbar/>
         
-        
-          
+        {/*  
           <MenuResponsive/>
-      <Navbar/>
+ */}
         
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>
