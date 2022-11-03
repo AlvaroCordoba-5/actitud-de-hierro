@@ -1,107 +1,102 @@
-
-
-.servicios{
-    
-    margin:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 10em;
+.servicios {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10em;
 }
 
-.servicios h1{
-    margin-left: 2.4em;
-    font-family:"Zilla Slab";
-    margin-bottom: 2em;
-    font-size: 3em,
+.servicios h1 {
+  margin-left: 2.4em;
+  font-family: "Zilla Slab";
+  margin-bottom: 2em;
+  font-size: 3em;
 }
 
-.container-img-servicios{
-    display: flex;
-    justify-content: center;
-    gap: 6em;
-      
+.container-img-servicios {
+  display: flex;
+  justify-content: center;
+  gap: 6em;
+  margin: 1em;
 }
 
-.img-servicios{
-    width: 40em;
+.img-servicios {
+  width: 40em;
 }
 
-.img-servicios img{
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
+.img-servicios img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
 }
 
-.img-servicios p{
-    font-family:'Poppins';
-    font-style: normal;
+.img-servicios p {
+  font-family: "Poppins";
+  font-style: normal;
 }
-.proyectos{
-    margin-top: -12em;
-}
-
-.projects img{
-    object-fit: cover;
-    
+.proyectos {
+  margin-top: -12em;
 }
 
-
-.inicio-formulario{
-    display:flex;
-    justify-content:center;
-    margin-top:10em;
-    flex-direction:column;
-    align-items:center;
-}
-.inicio-formulario h4{
-    font-family: "Poppins";
-     font-style: normal;
-     font-weight:300;
-     margin-bottom:-0.5em
-}
-.inicio-formulario h1{
-    font-family: "Zilla Slab";
-    font-style: normal;
-    font-weight:700;
-    margin-bottom:2em;
+.projects img {
+  object-fit: cover;
 }
 
-
+.inicio-formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  flex-direction: column;
+  align-items: center;
+}
+.inicio-formulario h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: -0.5em;
+}
+.inicio-formulario h1 {
+  font-family: "Zilla Slab";
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 2em;
+}
 
 @media screen and (max-width: 680px) {
-  .servicios{
+  .servicios {
     height: 80em;
   }
-  .servicios h1{
+  .servicios h1 {
     font-size: 2.5em;
     margin-left: 0.3em;
   }
 
-    .container-img-servicios{
-      flex-direction: column; 
-      margin: auto;
-      width: 80%;
-    }
-    .img-servicios{
-height: 40em;
-margin: auto;
-margin-bottom: 3em;
-    }
-    .img-servicios img{
-        height: 70%;
-    }
-    .img-servicios p{
-        font-size: 1.5em;
-    }
-    .proyectos{
-        
-        margin-top: 20em;
-    }
-    .inicio-formulario h4{
-        font-size: 1.5em
+  .container-img-servicios {
+    flex-direction: column;
+    margin: auto;
+  }
+  .img-servicios {
+    height: 40em;
+    margin: auto;
+    margin-bottom: 3em;
+  }
+  .img-servicios img {
+    height: 70%;
+  }
+  .img-servicios p {
+    font-size: 1.5em;
+  }
+  .proyectos {
+    margin-top: 20em;
+  }
+  .inicio-formulario h4 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
+    .servicios h1{
+      margin-left: 1em;
+      
     }
   }
-
-
-

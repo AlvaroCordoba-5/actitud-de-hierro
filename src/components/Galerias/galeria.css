@@ -132,3 +132,10 @@
     margin-top: -5em;
   }
 }
+
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
+  .name-productos{
+    margin-left: 3em;
+    
+  }
+}
