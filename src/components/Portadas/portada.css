@@ -76,9 +76,11 @@
 .container2{
     height: 50em;
 }
+
+  /*MEDIA PHONE*/
 @media screen and (max-width: 680px) {
     .portada{
-        height: 32em;
+        height: 42em;
     background-position: inherit;
     background-size: contain;
     background-attachment: inherit; 
@@ -92,7 +94,7 @@
         font-size: 3.37em; 
     }
     .container2{
-        height: 25em;
+        height: 22.5em;
     }
     .texto-boton{
         margin-top: -8em;
@@ -103,3 +105,26 @@
         font-size: 3em;
     }
    }
+ 
+
+   /*MEDIA TABLET*/
+   @media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
+    body{
+        font-size: 12px;
+    }
+    .portada{
+      height: 42em;
+      background-position: inherit;
+    }
+    .texto-boton{
+        margin: 1em;
+        margin-bottom: 4.5em;
+    }
+.texto-boton h1{
+    font-size: 6em;
+}
+
+    .container2 {
+        height: 35em;
+    }
+  }

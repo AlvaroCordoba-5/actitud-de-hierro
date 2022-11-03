@@ -56,3 +56,10 @@
     
   }
 }
+
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
+  .footer{
+    flex-direction: column;
+    
+  }
+}

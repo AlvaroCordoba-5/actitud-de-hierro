@@ -45,11 +45,20 @@ line-height: 1.8em;
     .container-contacto h1{
         font-size: 2.5em;
     }
-    .form-info ul{
-        font-size: 12px;
-    margin: 0 2em 0 0;
-    }
+   
     .container-form{
         margin-top: 3em;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
+  .form-info{
+    flex-direction: column-reverse;
+  } 
+  .form-info ul{
+    font-size: 12px;
+
+    margin-left: 4.5em;
+    margin-bottom: 4em;
     }
 }
