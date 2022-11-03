@@ -91,14 +91,16 @@
   font-size: 1em;
 }
 .card-container{
-  width: 80%;
   font-size: 12px;
-  height: 30em;
+  width: -webkit-fill-available;
   padding-left: 1em;
   padding-top: 1.4EM;
   padding-bottom: 1.4em;
   padding-right: 1em;
-  margin: 0 1.5em 1.5em auto;
+
+}
+.cont-image{
+  margin-bottom: 1em;
 }
 
 

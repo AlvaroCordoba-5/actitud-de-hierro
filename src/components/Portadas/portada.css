@@ -9,8 +9,6 @@
     background-position: center center;
     background-size: cover;
     background-size: auto;
-
-    
 }
 
 
@@ -20,19 +18,15 @@
     height:100%;
     background: rgba(0, 0, 0, 0.45);
     position: absolute;
-
 }
 
 
 
 .textos{
-
     display: flex;
     text-align: center;
     flex-direction: column;
-    width: 48em;
    margin: 3.45em auto;
-    
 }
 
 
@@ -43,8 +37,6 @@
     font-family: 'Zilla Slab', serif;
    font-size: 4.37em;
    margin-bottom: -1.56rem;
-   
-   
 }
 
 .textos h4{
@@ -60,7 +52,6 @@
     height: 100%;
     margin-top: 1,375em;
     display: grid;
-   
 }
 
 .image2{
@@ -87,8 +78,7 @@
 }
 @media screen and (max-width: 680px) {
     .portada{
-        height: 42em;
-        width: 51.6em;
+        height: 32em;
     background-position: inherit;
     background-size: contain;
     background-attachment: inherit; 
@@ -96,12 +86,10 @@
     }
     
     .textos{
-        width: 42em;
         margin: 2.45em auto;
     }
     .textos h1{
-        font-size: 3.37em;
-        
+        font-size: 3.37em; 
     }
     .container2{
         height: 25em;

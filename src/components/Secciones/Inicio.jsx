@@ -8,30 +8,14 @@ import Whatsapp from "../Botones/Whatsapp";
 import "./Css/Inicio.css";
 
 function Inicio() {
-  let navegador = navigator.userAgent;
- { /*if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    console.log('estamos desde un celu')
-  }else{
-    console.log('estamos desde una compu')
-  }*/}
-
-  if (window.innerWidth <= 768) {
-    console.log("Es un móvil");
-}
   return (
     <>
       <Portadaprincipal />
- 
 
-    <Whatsapp/>
-
+      <Whatsapp />
 
       <div className="servicios">
-        <h1
-          
-        >
-          Servicios
-        </h1>
+        <h1>Servicios</h1>
 
         <div className="container-img-servicios">
           <div className="img-servicios">
@@ -73,7 +57,7 @@ function Inicio() {
               src="https://image.shutterstock.com/image-photo/blacksmith-manually-forging-molten-metal-600w-1908448183.jpg"
               alt="trabajos particulares"
             />
-             <p>
+            <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal
@@ -84,14 +68,14 @@ function Inicio() {
         </div>
       </div>
 
-<GaleriaSlider/>
+      <GaleriaSlider />
 
 <GaleriaProductos
  img1='https://image.shutterstock.com/image-photo/green-tile-corner-story-neoclassical-600w-2148522595.jpg'
  img2="https://image.shutterstock.com/image-photo/handmade-wooden-table-iron-legs-600w-1822453556.jpg"
  img3="https://image.shutterstock.com/image-photo/two-metal-chairs-table-painted-600w-2175566317.jpg"
  
-/>
+ />
 <div className="inicio-formulario" >
 <h4 >
             ¿Necesitas realizar un trabajo personalizado en hierro?
@@ -100,7 +84,8 @@ function Inicio() {
 <Formulario/>
 </div>
 <Footer/>
-
+ {/*
+            */}
     </>
   );
 }

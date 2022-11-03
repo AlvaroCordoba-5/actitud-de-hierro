@@ -1,4 +1,4 @@
-
+/*NAVBAR DESKTOP*/
 
 .navbar {
   margin-left: 5em;
@@ -22,16 +22,13 @@ ol {
   
   color: white;
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 0.8em 0.9em;
   display: block;
   
 }
 
-.nav li a:hover {
-  background-color: #434343;
-  border-radius: 5px;
- 
-}
+
+
 
 .nav > li {
   float: left;
@@ -43,16 +40,93 @@ ol {
 .nav li ul {
   display: none;
   position: absolute;
-  min-width: 140px;
+  min-width: 8,75em;
 }
 
 .nav li:hover > ul {
   display: block;
 }
 
+
+
+
+/*NAVBAR PHONE*/
+
+
+.navbar-responsive{
+  display: flex;
+  flex-direction: column;
+background: #434343;
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size:1.9em;
+line-height: 1em;
+  position: relative;
+ 
+}
+
+.direction{
+  display: flex;
+  flex-direction: column;
+  margin-left: -1.5em;
+}
+
+.button-open-close{
+  display: flex;
+    justify-content: flex-end;
+    margin: 1em 1em 0 auto;
+}
+.view{
+  display: none;
+}
+.none{
+  display: none;
+}
+
+.button-navbar{
+  display: none;
+  flex-direction: column;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  background: transparent;
+  gap: .40rem;
+}
+
+.button-navbar > div{
+  background: white;
+  height: 0.3rem;
+  width: 100%;
+  border-radius: 5px;
+  transition: all -5s;
+  transform-origin: left;
+}
+
+.button-navbar:hover div:first-child{
+  transform: rotate(45deg);
+}
+
+.button-navbar:hover div:nth-child(2){
+ opacity: 0;
+}
+
+.button-navbar:hover div:last-child{
+  transform: rotate(-45deg);
+ }
+ 
+
+
+
+
 @media screen and (max-width: 680px) {
   .navbar{
+    
     width: 40em;
     margin-left: 0;
+  }
+  .button-navbar{
+    display: flex;
   }
 }

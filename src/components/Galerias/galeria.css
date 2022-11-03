@@ -1,5 +1,5 @@
 .container-galeria {
-  width: 100em;
+ 
   margin: auto;
 }
 
@@ -76,7 +76,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 95em;
 }
 
 .container-prod {
@@ -119,9 +118,7 @@
 }
 
 @media screen and (max-width: 680px) {
-  .container-galeria-productos {
-    width: 50em;
-  }
+  
   .name-productos {
     margin-left: 0.3em;
     margin-top: -16em;
@@ -131,7 +128,7 @@
     margin-left: 0.3em;
   }
   .container-galeria{
-    width: 50em;
+  font-size: 3px;
     margin-top: -5em;
   }
 }

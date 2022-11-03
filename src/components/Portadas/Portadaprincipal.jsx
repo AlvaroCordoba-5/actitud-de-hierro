@@ -3,6 +3,8 @@ import Navbar from "../navbar/navbar";
 import imagePortada from "../imagenes/portada.png";
 import Boton from "../Botones/Boton";
 import Whatsapp from "../Botones/Whatsapp";
+import NavbarResponsive from "../navbar/navbar-responsive";
+import MenuResponsive from "../navbar/menu-responsive";
 import "./portada.css";
 
 function Portadaprincipal() {
@@ -10,10 +12,11 @@ function Portadaprincipal() {
     <>
     
       <div className="portada" >
+         <Navbar/>
         
-        
-          
-      <Navbar/>
+        {/*  
+          <MenuResponsive/>
+ */}
         
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>
