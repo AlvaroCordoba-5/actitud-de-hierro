@@ -3,14 +3,13 @@
 .navbar {
   margin-left: 5em;
   width: 62.5em;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size:0.93em;
-line-height: 1.875em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.93em;
+  line-height: 1.875em;
   position: relative;
   margin-top: 2em;
-  
 }
 
 ul,
@@ -19,83 +18,71 @@ ol {
 }
 
 .nav li a {
-  
   color: white;
   text-decoration: none;
   padding: 0.8em 0.9em;
   display: block;
-  
 }
-
-
-
 
 .nav > li {
   float: left;
-  
 }
-
- 
 
 .nav li ul {
   display: none;
   position: absolute;
-  min-width: 8,75em;
+  min-width: 8, 75em;
 }
 
 .nav li:hover > ul {
   display: block;
 }
 
-
-
-
 /*NAVBAR PHONE*/
 
-
-.navbar-responsive{
+.navbar-responsive {
   display: flex;
   flex-direction: column;
-background: #434343;
+  background: transparent;
 
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size:1.9em;
-line-height: 1em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9em;
+  line-height: 1em;
   position: relative;
- 
 }
 
-.direction{
+.direction {
   display: flex;
   flex-direction: column;
   margin-left: -1.5em;
 }
 
-.button-open-close{
+.button-open-close {
   display: flex;
-    justify-content: flex-end;
-    margin: 1em 1em 0 auto;
+  justify-content: flex-end;
+  margin: 1em 1em 0 auto;
 }
-.view{
+.view {
   display: none;
 }
-.none{
-  display: none;
+.none {
+  display: relative;
+  background: #434343;
 }
 
-.button-navbar{
+.button-navbar {
   display: none;
   flex-direction: column;
   width: 3rem;
   height: 3rem;
   border: 0;
   background: transparent;
-  gap: .40rem;
+  gap: 0.4rem;
 }
 
-.button-navbar > div{
+.button-navbar > div {
   background: white;
   height: 0.3rem;
   width: 100%;
@@ -104,7 +91,7 @@ line-height: 1em;
   transform-origin: left;
 }
 
-.button-navbar:hover div:first-child{
+/*.button-navbar:hover div:first-child{
   transform: rotate(45deg);
 }
 
@@ -114,19 +101,14 @@ line-height: 1em;
 
 .button-navbar:hover div:last-child{
   transform: rotate(-45deg);
- }
- 
-
-
-
+ }*/
 
 @media screen and (max-width: 680px) {
-  .navbar{
-    
+  .navbar {
     width: 40em;
     margin-left: 0;
   }
-  .button-navbar{
+  .button-navbar {
     display: flex;
   }
 }

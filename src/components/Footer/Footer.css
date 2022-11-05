@@ -1,9 +1,6 @@
 .columna {
-  
   background: black;
-  margin-left: 2.5em;
   height: 22em;
-  margin-top: 3em;
 }
 
 .columna h1 {
@@ -24,42 +21,39 @@
 .footer {
   display: flex;
   background: black;
-  
 }
 
-.redes{
+.redes {
   display: flex;
 }
 
-.redes li{
+.redes li {
   margin: 1em;
 }
-.columna ul{
+.columna ul {
   margin-right: 4em;
 }
 
 @media screen and (max-width: 680px) {
-  .footer{
+  .footer {
     flex-direction: column;
     font-size: 12px;
   }
-  .columna{
+  .columna {
     margin: auto;
     width: max-content;
   }
-  .columna h1{
+  .columna h1 {
     text-align: center;
-    margin:1em auto;
+    margin: 1em auto;
   }
   .columna li {
     text-align: center;
-    
   }
 }
 
-@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
-  .footer{
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation: portrait) {
+  .footer {
     flex-direction: column;
-    
   }
 }

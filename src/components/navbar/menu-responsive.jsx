@@ -10,79 +10,88 @@ import { useState } from 'react';
 
 
 function MenuResponsive() {
-  
-const[view,Setview]=useState({})
 
-const handleclick=()=>Setview({yes:true})
+  const [view, Setview] = useState(false)
 
-console.log(view)
+  const handleclick = () => Setview(!view)
+
+  console.log(view)
 
   return (
-    <div className={view.yes?'view':'none'}>
-  <div className="navbar-responsive">
-  
-    <div className='button-open-close'>
-<NavbarResponsive
-handleclick={handleclick}
-/>
-</div>
-      <ul className="nav direction">
-        <li>
-        <Link  to='/'>Inicio </Link>
-        </li>
-        <li>
-          
-          <Link  to='/proyectos'>Proyectos </Link>
-        </li>
+    <>
+      <div className='button-open-close'>
+        <NavbarResponsive
+          handleclick={handleclick}
+          view={view}
+        />
+      </div>
+      <div className="navbar-responsive">
 
-        <li>
-        <Link  to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
-          <ul>
+        <div className={view ? 'view' : 'none'}>
+          <div className='button-navbar'>
+            <NavbarResponsive
+              handleclick={handleclick}
+              view={view}
+            />
+          </div>
+          <ul className="nav direction">
             <li>
-              <a href="">Pergolas</a>
+              <Link to='/'>Inicio </Link>
             </li>
             <li>
-              <a href="">Entrepisos</a>
-            </li>
-            <li>
-              <a href="">Portones / Puertas</a>
+
+              <Link to='/proyectos'>Proyectos </Link>
             </li>
 
             <li>
-              <a href="">Ventanas / Rejas</a>
-            </li>
+              <Link to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
+              <ul>
+                <li>
+                  <a href="">Pergolas</a>
+                </li>
+                <li>
+                  <a href="">Entrepisos</a>
+                </li>
+                <li>
+                  <a href="">Portones / Puertas</a>
+                </li>
 
-            <li>
-              <a href="">Barandas</a>
+                <li>
+                  <a href="">Ventanas / Rejas</a>
+                </li>
+
+                <li>
+                  <a href="">Barandas</a>
+                </li>
+                <li>
+                  <a href="">Escaleras</a>
+                </li>
+                <li>
+                  <a href="">Parrillas</a>
+                </li>
+                <li>
+                  <a href="">Mesas</a>
+                </li>
+                <li>
+                  <a href="">Bares estilos industriales</a>
+                </li>
+                <li>
+                  <a href="">Sillas</a>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="">Escaleras</a>
+              <Link to='/sobrenosotros'>Sobre nosotros </Link>
+
             </li>
             <li>
-              <a href="">Parrillas</a>
-            </li>
-            <li>
-              <a href="">Mesas</a>
-            </li>
-            <li>
-              <a href="">Bares estilos industriales</a>
-            </li>
-            <li>
-              <a href="">Sillas</a>
+              <Link to='/contacto'>Contacto </Link>
             </li>
           </ul>
-        </li>
-        <li>
-        <Link  to='/sobrenosotros'>Sobre nosotros </Link>
-          
-        </li>
-        <li>
-        <Link  to='/contacto'>Contacto </Link>
-        </li>
-      </ul>
-    </div>
-        
-    </div>
+        </div>
+
+      </div>
+    </>
   )
 }
 

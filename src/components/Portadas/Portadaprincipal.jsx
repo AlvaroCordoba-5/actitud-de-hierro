@@ -7,27 +7,33 @@ import NavbarResponsive from "../navbar/navbar-responsive";
 import MenuResponsive from "../navbar/menu-responsive";
 import "./portada.css";
 
-function Portadaprincipal() {
+function Portadaprincipal({ view }) {
+  console.log("portada", view)
   return (
     <>
-    
+
+
       <div className="portada" >
-         <Navbar/>
-        
+
+        <MenuResponsive
+        />
+        <Navbar />
         {/*  
-          <MenuResponsive/>
- */}
         
+        */}
+
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>
           <h4>Trabajos de herrería</h4>
-          <Boton 
-        texto={"Contactanos"}
-        
-        ></Boton>
+          <Boton
+            texto={"Contactanos"}
+
+          ></Boton>
         </div>
-        
-       
+
+
+
+
       </div>
     </>
   );

@@ -1,130 +1,123 @@
-.portada{
-    display: flex;
-    flex-direction: column;
-    height: 62em;
-    margin-bottom: 10em;
-    background-image: url('../imagenes/portada.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    background-size: auto;
+.portada {
+  display: flex;
+  flex-direction: column;
+  height: 62em;
+  margin-bottom: 10em;
+  background-image: url("../imagenes/portada.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  background-size: auto;
 }
 
-
-
-.image{
-    width: 100%;
-    height:100%;
-    background: rgba(0, 0, 0, 0.45);
-    position: absolute;
+.image {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  position: absolute;
 }
 
-
-
-.textos{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-   margin: 3.45em auto;
+.textos {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 3.45em auto;
 }
 
-
-.textos h1{
-   
-    position: relative;
-    color: white;
-    font-family: 'Zilla Slab', serif;
-   font-size: 4.37em;
-   margin-bottom: -1.56rem;
+.textos h1 {
+  position: relative;
+  color: white;
+  font-family: "Zilla Slab", serif;
+  font-size: 4.37em;
+  margin-bottom: -1.56rem;
 }
 
-.textos h4{
-    position: relative;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.55em;
-    letter-spacing: 0.08em;
-    font-weight: 400; 
+.textos h4 {
+  position: relative;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55em;
+  letter-spacing: 0.08em;
+  font-weight: 400;
 }
 
-.portadas2{
-    height: 100%;
-    margin-top: 1,375em;
-    display: grid;
+.portadas2 {
+  height: 100%;
+  margin-top: 1, 375em;
+  display: grid;
 }
 
-.image2{
-    height: 43,75em;
-    width: 100%;
-    position: absolute;
+.image2 {
+  height: 43, 75em;
+  width: 100%;
+  position: absolute;
 }
 
-.texto-boton{
-    display: flex;
-    align-items: center;
-    margin-left: 150px
-    
+.texto-boton {
+  display: flex;
+  align-items: center;
+  margin-left: 8em;
+  height: 50%;
 }
-.texto-boton h1{
-    position: relative;
-    color: white;
-    font-family: 'Zilla Slab', serif;
-    font-size: 100px;
-}
-
-.container2{
-    height: 50em;
+.texto-boton h1 {
+  position: relative;
+  color: white;
+  font-family: "Zilla Slab", serif;
+  font-size: 8em;
 }
 
-  /*MEDIA PHONE*/
+.container2 {
+  height: 50em;
+}
+
+/*MEDIA PHONE*/
 @media screen and (max-width: 680px) {
-    .portada{
-        height: 42em;
+  .portada {
+    height: 42em;
     background-position: inherit;
     background-size: contain;
-    background-attachment: inherit; 
+    background-attachment: inherit;
     margin-bottom: 0em;
-    }
-    
-    .textos{
-        margin: 2.45em auto;
-    }
-    .textos h1{
-        font-size: 3.37em; 
-    }
-    .container2{
-        height: 22.5em;
-    }
-    .texto-boton{
-        margin-top: -8em;
+  }
+
+  .textos {
+    margin: 2.45em auto;
+  }
+  .textos h1 {
+    font-size: 3.37em;
+  }
+  .container2 {
+    height: 22.5em;
+  }
+  .texto-boton {
+    margin-top: -8em;
     margin-left: 2em;
     width: 70%;
-    }
-    .texto-boton h1{
-        font-size: 3em;
-    }
-   }
- 
-
-   /*MEDIA TABLET*/
-   @media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
-    body{
-        font-size: 12px;
-    }
-    .portada{
-      height: 42em;
-      background-position: inherit;
-    }
-    .texto-boton{
-        margin: 1em;
-        margin-bottom: 4.5em;
-    }
-.texto-boton h1{
-    font-size: 6em;
+  }
+  .texto-boton h1 {
+    font-size: 3em;
+  }
 }
 
-    .container2 {
-        height: 35em;
-    }
+/*MEDIA TABLET*/
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation: portrait) {
+  body {
+    font-size: 12px;
   }
+  .portada {
+    height: 42em;
+    background-position: inherit;
+  }
+  .texto-boton {
+    margin: 1em;
+    margin-bottom: 4.5em;
+  }
+  .texto-boton h1 {
+    font-size: 6em;
+  }
+
+  .container2 {
+    height: 35em;
+  }
+}
