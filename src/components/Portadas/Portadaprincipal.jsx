@@ -7,8 +7,8 @@ import NavbarResponsive from "../navbar/navbar-responsive";
 import MenuResponsive from "../navbar/menu-responsive";
 import "./portada.css";
 
-function Portadaprincipal({ view }) {
-  console.log("portada", view)
+function Portadaprincipal() {
+
   return (
     <>
 
@@ -17,8 +17,8 @@ function Portadaprincipal({ view }) {
 
         <MenuResponsive
         />
-        <Navbar />
         {/*  
+        <Navbar />
         
         */}
 

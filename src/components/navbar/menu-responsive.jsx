@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 function MenuResponsive() {
 
-  const [view, Setview] = useState(false)
+  const [view, Setview] = useState(true)
 
   const handleclick = () => Setview(!view)
 
@@ -19,7 +19,7 @@ function MenuResponsive() {
 
   return (
     <>
-      <div className='button-open-close'>
+      <div className={view ? 'button-open-close' : 'view'}>
         <NavbarResponsive
           handleclick={handleclick}
           view={view}
