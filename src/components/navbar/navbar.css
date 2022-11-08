@@ -44,7 +44,7 @@ ol {
   display: flex;
   flex-direction: column;
   background: transparent;
-
+  z-index: 3;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -63,6 +63,7 @@ ol {
   display: flex;
   justify-content: flex-end;
   margin: 1em 1em 0 auto;
+  z-index: 2;
 }
 .view {
   display: none;
