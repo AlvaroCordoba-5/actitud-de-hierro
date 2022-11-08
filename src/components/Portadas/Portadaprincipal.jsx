@@ -15,12 +15,15 @@ function Portadaprincipal() {
 
       <div className="portada" >
 
-        <MenuResponsive
-        />
-        {/*  
-        <Navbar />
-        
-        */}
+        <div className="menu-phone">
+          <MenuResponsive />
+        </div>
+
+        <div className="menu-desktop">
+          <Navbar />
+        </div>
+
+
 
         <div className="textos">
           <h1>ACTITUD DE HIERRO</h1>

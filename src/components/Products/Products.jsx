@@ -6,14 +6,14 @@ import { RiArrowUpSLine } from "react-icons/ri";
 
 
 function Products({ product, title, img, text }) {
-  const [products, setProducts] = useState(false);
+  const [products, setProducts] = useState(true);
 
   const handleChange = () => setProducts(!products);
 
   return (
     <>
       <div>
-        <h1 style={{ fontFamily: "Zilla Slab", fontStyle: "normal",marginLeft:'2em'}}>
+        <h1 style={{ fontFamily: "Zilla Slab", fontStyle: "normal", marginLeft: '2em' }}>
           {product}
         </h1>
         {products === false ? (

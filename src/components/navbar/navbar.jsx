@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom';
 import { BiChevronDown } from "react-icons/bi";
 import "./navbar.css";
 
-function navbar() {
+function Navbar() {
   return (
     <div className="navbar">
       <ul className="nav">
         <li>
-        <Link  to='/'>Inicio </Link>
+          <Link to='/'>Inicio </Link>
         </li>
         <li>
-          
-          <Link  to='/proyectos'>Proyectos </Link>
+
+          <Link to='/proyectos'>Proyectos </Link>
         </li>
 
         <li>
-        <Link  to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
+          <Link to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
           <ul>
             <li>
               <a href="">Pergolas</a>
@@ -53,15 +53,15 @@ function navbar() {
           </ul>
         </li>
         <li>
-        <Link  to='/sobrenosotros'>Sobre nosotros </Link>
-          
+          <Link to='/sobrenosotros'>Sobre nosotros </Link>
+
         </li>
         <li>
-        <Link  to='/contacto'>Contacto </Link>
+          <Link to='/contacto'>Contacto </Link>
         </li>
       </ul>
     </div>
   );
 }
 
-export default navbar;
+export default Navbar;

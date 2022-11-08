@@ -3,7 +3,7 @@ import Navbar from "../navbar/navbar";
 import Boton2 from "../Botones/Boton2";
 import { BsWhatsapp } from "react-icons/bs";
 import MenuResponsive from "../navbar/menu-responsive";
-import navbar from "../navbar/navbar";
+
 
 import './portada.css'
 
@@ -12,16 +12,21 @@ function Portadas({ image, texto }) {
 
   return (
     <>
-      {/*  
-       <MenuResponsive />
-      */}
+
 
       <div className="container2">
 
 
         <div className="portadas2">
+
+          <div className="menu-phone">
+            <MenuResponsive />
+          </div>
+          <div className="menu-desktop">
+            <Navbar />
+          </div>
+
           <img className="image2" src={image} />
-          <Navbar />
           <div className="texto-boton">
             <h1>{texto}</h1>
             <a
