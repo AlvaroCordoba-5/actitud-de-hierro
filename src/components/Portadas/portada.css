@@ -70,6 +70,12 @@
 .container2 {
   height: 50em;
 }
+.menu-phone {
+  display: none;
+}
+.menu-desktop {
+  display: flex;
+}
 
 /*MEDIA PHONE*/
 @media screen and (max-width: 680px) {
@@ -102,6 +108,13 @@
   }
   .texto-boton h1 {
     font-size: 3em;
+  }
+  .menu-phone {
+    display: block;
+    z-index: 2;
+  }
+  .menu-desktop {
+    display: none;
   }
 }
 
