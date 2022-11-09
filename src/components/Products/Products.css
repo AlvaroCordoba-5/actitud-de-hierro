@@ -1,18 +1,13 @@
 .card-container {
-  width: 20em;
-  height: 29em;
   background: white;
   box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.25);
-  margin: 4em;
+  margin: 2em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0.3em;
 }
-
-
-
-  
 
 .card-container img {
   object-fit: cover;
@@ -26,11 +21,8 @@
   font-family: "Poppins";
   font-style: normal;
   color: #d36363;
-  font-size: 1.2em;
-  
-  margin-bottom: 0.5em;
-  position: relative;
-  right:4em;
+  font-size: 1em;
+  margin: 0 auto 0 0.5em;
 }
 
 .card-container p {
@@ -48,7 +40,7 @@
   color: white;
   background: black;
   width: 13em;
- 
+
   cursor: pointer;
 }
 
@@ -56,10 +48,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
- 
 }
 
-.container-products2{
+.container-products2 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   justify-content: center;
@@ -71,7 +62,6 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: 5em;
-  
 }
 .ver-mas input {
   border: none;
@@ -83,25 +73,21 @@
   cursor: pointer;
 }
 
-
 @media screen and (max-width: 680px) {
-.card-container input {
-  width: 80%;
-  margin-bottom: 0.2em;
-  font-size: 1em;
-}
-.card-container{
-  font-size: 12px;
-  width: -webkit-fill-available;
-  padding-left: 1em;
-  padding-top: 1.4EM;
-  padding-bottom: 1.4em;
-  padding-right: 1em;
-
-}
-.cont-image{
-  margin-bottom: 1em;
-}
-
-
+  .card-container input {
+    width: 80%;
+    margin-bottom: 0.2em;
+    font-size: 1em;
+  }
+  .card-container {
+    font-size: 12px;
+    width: -webkit-fill-available;
+    padding-left: 1em;
+    padding-top: 1.4em;
+    padding-bottom: 1.4em;
+    padding-right: 1em;
+  }
+  .cont-image {
+    margin-bottom: 1em;
+  }
 }

@@ -3,10 +3,9 @@
   background: #d36363;
   position: relative;
   cursor: pointer;
-  
 }
 
-.principal{
+.principal {
   width: 40%;
   height: 3.125em;
   padding: 0.25em;
@@ -19,47 +18,41 @@
   font-size: 1em;
 }
 
-.button:hover{
+.button:hover {
   background-color: white;
-  color:#d36363;
+  color: #d36363;
   scale: 1.1;
-  transition: .8s;
-
+  transition: 0.8s;
 }
 
-.secundario{
+.secundario {
   width: 16em;
   height: 2.5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 8em;
-
-  
-
+  margin-left: 4em;
 }
 
-.container-whatsapp{
-  position: sticky; 
+.container-whatsapp {
+  position: sticky;
   top: 52em;
   display: flex;
-    justify-content: flex-end;
-    margin-right: 2em;
-    
+  justify-content: flex-end;
+  margin-right: 2em;
 }
 
-.whatsapp{
-  color:white;
+.whatsapp {
+  color: white;
   background: #44c654;
   border-radius: 100%;
 }
 
 @media screen and (max-width: 680px) {
-  .container-whatsapp{
-    
+  .container-whatsapp {
     bottom: 0;
   }
-  .principal{
+  .principal {
     margin-top: 0;
   }
 }
