@@ -1,6 +1,5 @@
 .columna {
   background: black;
-  height: 22em;
 }
 
 .columna h1 {
@@ -31,7 +30,7 @@
   margin: 1em;
 }
 .columna ul {
-  margin-right: 4em;
+  margin: 1em;
 }
 
 @media screen and (max-width: 680px) {
