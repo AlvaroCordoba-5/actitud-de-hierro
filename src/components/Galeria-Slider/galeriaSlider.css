@@ -11,6 +11,7 @@
   position: relative;
   scroll-snap-align: center;
   margin: 50px 20px 0;
+  margin-right: 8em;
 }
 
 .slider-card img {
@@ -23,7 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
+
   height: 60em;
   margin-bottom: 10em;
 }
@@ -54,21 +55,22 @@
   .container-slider::-webkit-scrollbar-thumb {
     visibility: hidden;
   }
-  .proyectos h1{
+  .proyectos h1 {
     font-size: 2.5em;
     margin-left: 0.3em;
   }
-  .slider-card img{
+  .slider-card {
+    margin-right: 4em;
+  }
+  .slider-card img {
     width: 30em;
     height: 60%;
     object-fit: cover;
   }
- 
 }
 
-@media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
-  .proyectos h1{
-   margin-left: 1em;
-    
+@media (min-width: 681px) and (max-width: 991.98px) and (orientation: portrait) {
+  .proyectos h1 {
+    margin-left: 1em;
   }
 }

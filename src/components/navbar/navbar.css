@@ -16,6 +16,10 @@ ul,
 ol {
   list-style: none;
 }
+.nav ul {
+  list-style: none;
+  background: #434343;
+}
 
 .nav li a {
   color: white;

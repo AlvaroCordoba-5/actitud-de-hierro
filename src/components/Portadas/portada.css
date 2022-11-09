@@ -46,6 +46,7 @@
   height: 100%;
   margin-top: 1, 375em;
   display: grid;
+  position: relative;
 }
 
 .image2 {
@@ -57,8 +58,10 @@
 .texto-boton {
   display: flex;
   align-items: center;
-  margin-left: 8em;
+  margin: 10em;
   height: 50%;
+  position: absolute;
+  z-index: 1;
 }
 .texto-boton h1 {
   position: relative;
@@ -126,12 +129,11 @@
   }
   .portada {
     height: 42em;
-
     background-position: inherit;
   }
   .texto-boton {
     margin: 1em;
-    margin-bottom: 4.5em;
+    margin-top: 5em;
     width: 80%;
   }
   .texto-boton h1 {
