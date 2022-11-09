@@ -1,106 +1,93 @@
-label{
-    font-family: 'Poppins';
-font-style: normal;
-color: #C1C1C1;
-margin-bottom: 0.5em;
-margin-top: 0.5em;
+label {
+  font-family: "Poppins";
+  font-style: normal;
+  color: #c1c1c1;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
-.container-form{
-    height: 31.25em;
-    
-    display: flex;
-    justify-content: center;
-    
-     
+.container-form {
+  height: 31.25em;
+
+  display: flex;
+  justify-content: center;
 }
 
-
-.name-tel{
-    display: flex;
-    justify-content: center;
-    
+.name-tel {
+  display: flex;
+  justify-content: center;
 }
 
-.email-msg{
-    display: flex;
-    flex-direction: column;
+.email-msg {
+  display: flex;
+  flex-direction: column;
 }
-.email-msg input{
-    height: 2.5em;
-    border: #FFFFFF;
-    background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-outline: none;
-
+.email-msg input {
+  height: 2.5em;
+  border: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
 }
 
 .email-msg input:invalid {
-border-color:  red;
+  border-color: red;
 }
 
+.label-input {
+  display: flex;
+  flex-direction: column;
+}
 
+.name-tel input {
+  height: 2.5em;
+  width: 18.75em;
+  border: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
 
-.label-input{
-    display: flex;
+.button-form {
+  cursor: pointer;
+  margin-top: 1.2em;
+  height: 3.5em;
+  width: 100%;
+  background: #d36363;
+  color: white;
+  border: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.msg {
+  height: 10em;
+  border: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .container-form {
+    font-size: 14px;
+    height: 38.25em;
+  }
+  .name-tel {
     flex-direction: column;
-}
-
-.name-tel input{
-    height: 2.5em;
-    width: 18.75em;
-    border: #FFFFFF;
-    background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-outline: none;
-}
-
-
-
-
-
-.button-form{
-    cursor: pointer;
-    margin-top: 1.2em;
-    height: 3.5em;
+  }
+  .label-input input {
     width: 100%;
-    background: #d36363;
-    color: white;
-    border: #FFFFFF;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 1.1em;
-
-
-}
-
-.msg{
-    height: 10em;
-    border: #FFFFFF;
-    background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-outline: none;
-}
-
-@media screen and (max-width: 680px) {
-    .container-form{
-        font-size: 14px;
-        height: 38.25em;
-    }
-    .name-tel{
-        flex-direction: column;
-    }
-    .label-input input{
-        width: 100%;
-    }
-    .email-msg input {
-        width: 100%;
-    }
-    .email-msg textarea{
-        width: 100%;
-    }
-    .button-form{
-        width: 102%;
-    }
+  }
+  .email-msg input {
+    width: 100%;
+  }
+  .email-msg textarea {
+    width: 100%;
+  }
+  .button-form {
+    width: 102%;
+  }
 }

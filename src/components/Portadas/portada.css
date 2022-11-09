@@ -120,12 +120,13 @@
 }
 
 /*MEDIA TABLET*/
-@media (min-width: 681px) and (max-width: 991.98px) and (orientation: portrait) {
+@media (min-width: 681px) and (max-width: 1199px) {
   body {
     font-size: 12px;
   }
   .portada {
     height: 42em;
+
     background-position: inherit;
   }
   .texto-boton {
