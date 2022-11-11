@@ -95,6 +95,10 @@ ol {
   transition: all -5s;
   transform-origin: left;
 }
+.button-close {
+  justify-content: flex-end;
+  display: flex;
+}
 
 /*.button-navbar:hover div:first-child{
   transform: rotate(45deg);
