@@ -1,6 +1,12 @@
 .columna {
   background: black;
   width: -webkit-fill-available;
+  margin: 2em;
+}
+
+.columna ul {
+  padding: 0;
+  width: max-content;
 }
 
 .columna h1 {
