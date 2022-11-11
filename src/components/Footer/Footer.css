@@ -1,5 +1,6 @@
 .columna {
   background: black;
+  width: -webkit-fill-available;
 }
 
 .columna h1 {
@@ -7,6 +8,7 @@
   font-family: "Zilla Slab";
   font-style: normal;
   color: white;
+  font-size: 1.5em;
 }
 
 .columna li {
@@ -15,6 +17,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-size: 0.9em;
+  display: flex;
 }
 
 .footer {
@@ -29,25 +32,26 @@
 .redes li {
   margin: 1em;
 }
-.columna ul {
-  margin: 1em;
-}
 
 @media screen and (max-width: 680px) {
   .footer {
     flex-direction: column;
     font-size: 12px;
   }
-  .columna {
-    margin: auto;
-    width: max-content;
-  }
+
   .columna h1 {
     text-align: center;
     margin: 1em auto;
   }
   .columna li {
-    text-align: center;
+    width: max-content;
+    margin: auto;
+  }
+  .columna ul {
+    padding: 0;
+  }
+  .columna {
+    margin: 2em;
   }
 }
 
@@ -57,8 +61,25 @@
   }
 }
 
-@media (min-width: 681px) and (max-width: 991.98px) and (orientation: portrait) {
+@media (min-width: 681px) and (max-width: 991.98px) {
   .footer {
     flex-direction: column;
+  }
+  .columna ul {
+    padding: 0;
+  }
+  .columna li {
+    width: max-content;
+    margin: auto;
+  }
+  .columna h1 {
+    text-align: center;
+  }
+  .redes {
+    width: 20em;
+    margin: auto;
+  }
+  .columna {
+    margin: 2em;
   }
 }

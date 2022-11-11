@@ -6,7 +6,7 @@ import { RiArrowUpSLine } from "react-icons/ri";
 
 
 function Products({ product, title, img, text }) {
-  const [products, setProducts] = useState(true);
+  const [products, setProducts] = useState(false);
 
   const handleChange = () => setProducts(!products);
 

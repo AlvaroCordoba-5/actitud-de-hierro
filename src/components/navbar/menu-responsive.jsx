@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiChevronDown } from "react-icons/bi";
 import NavbarResponsive from './navbar-responsive';
+import NavbarClose from './NavbarClose';
 import "./navbar.css";
 import { useState } from 'react';
 
@@ -28,10 +29,10 @@ function MenuResponsive() {
       <div className="navbar-responsive">
 
         <div className={view ? 'view' : 'none'}>
-          <div className='button-navbar'>
-            <NavbarResponsive
+          <div className='button-close'>
+            <NavbarClose
               handleclick={handleclick}
-              view={view}
+
             />
           </div>
           <ul className="nav direction">
