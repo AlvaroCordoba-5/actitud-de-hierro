@@ -119,4 +119,8 @@ ol {
   .button-navbar {
     display: flex;
   }
+  .redes {
+    width: 20em;
+    margin: auto;
+  }
 }
