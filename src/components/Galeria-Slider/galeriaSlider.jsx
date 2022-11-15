@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+import s1 from '../imagenes/slider1.jpg';
+import s2 from '../imagenes/slider2.jpg';
+import s3 from '../imagenes/slider3.jpg';
+
 import './galeriaSlider.css'
 
 function galeriaSlider() {
@@ -15,21 +19,21 @@ function galeriaSlider() {
 <div className='container-slider'>
     <div className='slider-card'>
         <img
-              src="https://i.pinimg.com/236x/47/07/67/4707671b0d518e76e6182074bb1815c0.jpg"
+              src={s1}
               alt="trabajos particulares"
             />
             
         </div>
         <div className='slider-card'>
         <img
-              src="https://i.pinimg.com/236x/47/07/67/4707671b0d518e76e6182074bb1815c0.jpg"
+              src={s2}
               alt="trabajos particulares"
             />
             
         </div>
         <div className='slider-card'>
         <img
-              src="https://i.pinimg.com/236x/47/07/67/4707671b0d518e76e6182074bb1815c0.jpg"
+              src={s3}
               alt="trabajos particulares"
             />
             

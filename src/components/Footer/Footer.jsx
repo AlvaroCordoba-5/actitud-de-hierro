@@ -4,6 +4,10 @@ import Tiktok from '../imagenes/tik-tok.svg';
 import { BsWhatsapp } from "react-icons/bs";
 import { BiAt } from "react-icons/bi";
 import { IoLocationOutline } from "react-icons/io5";
+import { GrInstagram } from "react-icons/gr";
+import { BsFacebook } from "react-icons/bs";
+import { FaTiktok } from "react-icons/fa";
+
 import './Footer.css'
 
 
@@ -54,9 +58,9 @@ texto3='Cookies'
 <div className="columna">
       <h1>Redes sociales</h1>
       <ul className='redes'>
-        <li><img  style={{width:'1em',background:'white',color:'white'}} src={Tiktok}/></li>
-        <li>'HOLA'</li>
-        <li>'HOLA'</li>
+        <li><GrInstagram size='1.5em'/></li>
+        <li><BsFacebook size='1.5em'/></li>
+        <li><FaTiktok size='1.5em'/></li>
         </ul>
     </div>
     </div>

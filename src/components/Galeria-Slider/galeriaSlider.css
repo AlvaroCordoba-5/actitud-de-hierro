@@ -17,6 +17,7 @@
 .slider-card img {
   width: 50em;
   height: 90%;
+  object-fit: cover;
 }
 
 .proyectos {
@@ -37,12 +38,13 @@
 }
 
 .container-slider::-webkit-scrollbar {
-  background-color: #d36363;
-  height: 2em;
+  background-color:white;
+ 
 }
 
 .container-slider::-webkit-scrollbar-thumb {
-  background-color: #5c4b4b;
+  background-color: #d36363;
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 680px) {
