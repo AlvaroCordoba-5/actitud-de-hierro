@@ -8,7 +8,7 @@
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  background-size: auto;
+
 }
 
 .image {
@@ -60,8 +60,8 @@
   align-items: center;
   margin: 10em;
   height: 50%;
-  position: absolute;
-  z-index: 1;
+  position: relative;
+  
 }
 .texto-boton h1 {
   position: relative;
@@ -87,7 +87,6 @@
   .portada {
     height: 42em;
     background-position: inherit;
-    background-size: contain;
     background-attachment: inherit;
     margin-bottom: 0em;
     position: relative;
@@ -109,6 +108,7 @@
   .texto-boton {
     margin-left: 2em;
     width: 70%;
+    position: absolute;
   }
   .texto-boton h1 {
     font-size: 3em;

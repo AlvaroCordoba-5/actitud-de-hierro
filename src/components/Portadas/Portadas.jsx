@@ -29,13 +29,14 @@ function Portadas({ image, texto }) {
           <img className="image2" src={image} />
           <div className="texto-boton">
             <h1>{texto}</h1>
-            <a
-              style={{ textDecoration: "none" }}
+           { <a
+              style={{ textDecoration: "none",position:'relative',
+              zIndex:'1'}}
               href="https://wa.me/+5491125069028?text=Hola"
               target={"_blank"}
             >
               <Boton2 img={<BsWhatsapp />} texto="Enviar Whatsapp" />
-            </a>
+            </a>}
           </div>
         </div>
       </div>

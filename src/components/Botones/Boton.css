@@ -55,4 +55,7 @@
   .principal {
     margin-top: 0;
   }
+  .secundario{
+    display: none;
+  }
 }

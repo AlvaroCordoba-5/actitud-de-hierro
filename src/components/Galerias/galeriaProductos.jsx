@@ -45,34 +45,34 @@ function galeriaProductos({
           <div className="two-prod">
             <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img1} alt="img" />
+              <img src={img4} alt="img" />
             </div>
             <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img2} alt="img" />
+              <img src={img5} alt="img" />
             </div>
           </div>
 
           <div className="one-prod">
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img3} alt="img" />
+            <img src={img6} alt="img" />
           </div>
         </div>
 
         <div className="container-prod">
           <div className="one-prod">
             <h2 className="name">Lorem ipsum</h2>
-            <img src={img3} alt="img" />
+            <img src={img7} alt="img" />
           </div>
 
           <div className="two-prod">
             <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img1} alt="img" />
+              <img src={img8} alt="img" />
             </div>
             <div className="two-prod-img">
               <h2 className="name">Lorem ipsum</h2>
-              <img src={img2} alt="img" />
+              <img src={img9} alt="img" />
             </div>
           </div>
         </div>

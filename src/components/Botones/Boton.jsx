@@ -4,12 +4,15 @@ import "./Boton.css";
 function Boton({ texto }) {
   return (
     <>
-      <div className="button principal">
-        <h2>
-          
-          {texto}
-        </h2>
-      </div>
+      <a
+        href="http://api.whatsapp.com/send?phone=+5491123992937&text=Hola, te queria consultar por "
+        target="_blank"
+        style={{ textDecoration: "none" }}
+      >
+        <div className="button principal">
+          <h2>{texto}</h2>
+        </div>
+      </a>
     </>
   );
 }
