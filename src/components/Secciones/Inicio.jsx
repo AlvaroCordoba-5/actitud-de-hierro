@@ -5,6 +5,8 @@ import GaleriaSlider from "../Galeria-Slider/galeriaSlider";
 import Formulario from "../Formulario/Formulario";
 import Footer from "../Footer/Footer";
 import Whatsapp from "../Botones/Whatsapp";
+import s1 from '../imagenes/Servicios1.png'
+import s2 from '../imagenes/Servicios2.png'
 import f1 from '../imagenes/inicio1.jpg';
 import f2 from '../imagenes/inicio2.webp'
 import f3 from '../imagenes/inicio3.webp'
@@ -39,7 +41,7 @@ function Inicio() {
               Obras
             </h2>
             <img
-              src="https://i.pinimg.com/236x/2f/fc/d3/2ffcd3ddbde0856d6edcd4866f36445e.jpg"
+              src={s1}
               alt="obras"
             />
             <p>
@@ -63,7 +65,7 @@ function Inicio() {
               Trabajos particulares
             </h2>
             <img
-              src="https://image.shutterstock.com/image-photo/blacksmith-manually-forging-molten-metal-600w-1908448183.jpg"
+              src={s2}
               alt="trabajos particulares"
             />
             <p>

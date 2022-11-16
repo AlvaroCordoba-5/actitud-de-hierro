@@ -1,5 +1,5 @@
 .container-galeria {
- 
+  width: 95%;
   margin: auto;
 }
 
@@ -12,19 +12,22 @@
 }
 
 .container1-2 img {
-  width: 96%;
+  width: 94%;
   margin: 1em;
 }
 
 .images22 {
-  width: 98%;
+  width: 97%;
   height: 30em;
   margin: 1em;
 }
 
 .container3 {
   display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
+
 
 .image33 {
   width: 95%;
@@ -38,7 +41,7 @@
 }
 
 .container3-img img {
-  width: 96%;
+  width: 94%;
   margin-left: 1em;
 }
 
@@ -109,7 +112,7 @@
   object-fit: cover;
 }
 .name-productos {
-  margin-left: 16.9em;
+  margin-left: 5.9em;
 }
 .name-productos h1 {
   font-family: "Zilla Slab";
@@ -127,9 +130,9 @@
     font-size: 2.5em;
     margin-left: 0.3em;
   }
-  .container-galeria{
-  font-size: 3px;
-    margin-top: -5em;
+  
+  .images22{
+    height: 30em;
   }
 }
 
