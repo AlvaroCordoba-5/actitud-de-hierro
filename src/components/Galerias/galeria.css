@@ -138,6 +138,9 @@
   .one-prod img {
     object-fit: cover;
   }
+  .container-galeria-productos{
+    width: 95%;
+  }
 }
 
 @media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
