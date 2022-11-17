@@ -79,6 +79,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .container-prod {
@@ -94,7 +95,7 @@
 .one-prod img {
   width: 98%;
   height: 100%;
-  object-fit: cover;
+  object-fit: revert;
 }
 
 .two-prod {
@@ -134,11 +135,16 @@
   .images22{
     height: 30em;
   }
+  .one-prod img {
+    object-fit: cover;
+  }
 }
 
 @media (min-width: 681px) and (max-width: 991.98px) and (orientation:portrait) {
   .name-productos{
     margin-left: 3em;
-    
+  }
+  .container-galeria-productos{
+    width: 95%;
   }
 }
