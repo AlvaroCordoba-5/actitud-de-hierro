@@ -11,8 +11,45 @@ function Proyectos() {
   return (
     <>
       <Portadas image={imgproyectos} texto="PROYECTOS" />
-      <Whatsapp />
-      <div
+      
+<div className="list-products">
+        <div className="element-products">
+          <h4>Pergolas</h4>
+        </div>
+        <div className="element-products">
+          <h4>Entrepisos</h4>
+          
+        </div>
+        <div className="element-products">
+          <h4>Sillas</h4>
+          
+        </div>
+        <div className="element-products">
+          <h4>Mesas</h4>
+          
+        </div>
+        <div className="element-products">
+          <h4>Puertas y portones</h4>
+         
+        </div>
+        <div className="element-products">
+          <h4>Parillas</h4>
+        
+        </div>
+        <div className="element-products">
+          <h4>Ventanas</h4>
+         
+        </div>
+        <div className="element-products">
+          <h4>Rejas</h4>
+      
+        </div>
+        <div className="element-products">
+          <h4>Escaleras y barandas</h4>
+        </div>
+      </div>
+          <Whatsapp />
+<div
         style={{
           display: "flex",
           flexDirection: "column",

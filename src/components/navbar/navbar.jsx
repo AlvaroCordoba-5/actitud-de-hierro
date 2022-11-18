@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { BiChevronDown } from "react-icons/bi";
 import "./navbar.css";
 
@@ -8,56 +8,54 @@ function Navbar() {
     <div className="navbar">
       <ul className="nav">
         <li>
-          <Link to='/'>Inicio </Link>
-        </li>
-        <li>
-
-          <Link to='/proyectos'>Proyectos </Link>
+          <Link to="/">Inicio </Link>
         </li>
 
         <li>
-          <Link to='/productos'>Productos<BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown> </Link>
+          <Link to="/proyectos">
+            Proyectos
+            <BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown>{" "}
+          </Link>
           <ul>
             <li>
-              <a href="">Pergolas</a>
+              <Link to="/proyectos">Pergolas </Link>
             </li>
             <li>
-              <a href="">Entrepisos</a>
+              <Link to="/proyectos">Entrepisos</Link>
             </li>
             <li>
-              <a href="">Portones / Puertas</a>
-            </li>
-
-            <li>
-              <a href="">Ventanas / Rejas</a>
+              <Link to="/proyectos">Portones / Puertas</Link>
             </li>
 
             <li>
-              <a href="">Barandas</a>
+              <Link to="/proyectos">Ventanas / Rejas</Link>
+            </li>
+
+            <li>
+              <Link to="/proyectos">Barandas</Link>
             </li>
             <li>
-              <a href="">Escaleras</a>
+              <Link to="/proyectos">Escaleras</Link>
             </li>
             <li>
-              <a href="">Parrillas</a>
+              <Link to="/proyectos">Parrillas</Link>
             </li>
             <li>
-              <a href="">Mesas</a>
+              <Link to="/proyectos">Mesas</Link>
             </li>
             <li>
-              <a href="">Bares estilos industriales</a>
+              <Link to="/proyectos">Bares estilos industriales</Link>
             </li>
             <li>
-              <a href="">Sillas</a>
+              <Link to="/proyectos">Sillas</Link>
             </li>
           </ul>
         </li>
         <li>
-          <Link to='/sobrenosotros'>Sobre nosotros </Link>
-
+          <Link to="/sobrenosotros">Sobre nosotros </Link>
         </li>
         <li>
-          <Link to='/contacto'>Contacto </Link>
+          <Link to="/contacto">Contacto </Link>
         </li>
       </ul>
     </div>

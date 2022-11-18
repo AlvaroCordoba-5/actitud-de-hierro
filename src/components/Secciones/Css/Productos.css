@@ -1,21 +1,26 @@
 .list-products {
   display: flex;
   justify-content: center;
+  margin-top: 4em;
 }
 
 .element-products {
   display: flex;
-  margin-right: 1.5em;
+  margin: 0.1em;
+  border: 1px solid black;
+  
 }
 
-.element-products h6 {
-  margin-left: 1.2em;
-}
 
 .element-products h4 {
   font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.88em;
+    margin: 0;
+    padding: 0.8em;
+    text-align: center;
+    width: max-content;
 }
 .productos {
   display: flex;
@@ -28,14 +33,23 @@
 }
 
 @media screen and (max-width: 680px) {
-  .list-products { 
-    display: none; 
-  }
+  
+
   .productos{
     display: none;
   }
   .productos-phone{
     display: flex;
   }
+  .element-products h4 {
+    width: max-content;
+    padding: 0.4em;
+    font-size: 0.68em;
+  }
+}
 
+@media (min-width: 540px) and (max-width: 685.98px){
+  .list-products {
+    margin-top: 15em;
+  }
 }

@@ -29,7 +29,7 @@ function Portadaprincipal() {
           <h1>ACTITUD DE HIERRO</h1>
           <h4>Trabajos de herrería</h4>
           <Boton
-            texto={"Contactanos"}
+            texto={"Cotizamos tu proyecto"}
 
           ></Boton>
         </div>
