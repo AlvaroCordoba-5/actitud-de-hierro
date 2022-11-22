@@ -43,7 +43,7 @@ function galeriaProductos() {
         <div className="container-prod">
           <div className="two-prod">
             <div className="two-prod-img">
-              <h2 className="name">Parrilas</h2>
+              <h2 className="name">Parrillas</h2>
               <img src={img6} alt="img" />
             </div>
             <div className="two-prod-img">
