@@ -24,19 +24,19 @@ function galeriaProyectos({
          
           <div className="container1-twoimages">
             <div className="container1-image">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Pergolas</h2>
               <ModalImage  small={img1} medium={img1} alt="Lorem ipsum" />
             </div>
 
             <div className="container1-image">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Pergolas</h2>
               <ModalImage  small={img2} medium={img2} alt="Lorem ipsum" />
             </div>
           </div>
 
           <div className="container1-oneimage">
           <div className="container1-image1">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Pergolas</h2>
               <ModalImage className='image-galeria' small={img3} medium={img3} alt="Lorem ipsum" />
             </div>
           </div>
@@ -50,18 +50,18 @@ function galeriaProyectos({
   
 <div className="container1-twoimages ">
             <div className="container1-image">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Sillas</h2>
               <ModalImage className='image-galeria' small={img8} medium={img8} alt="Lorem ipsum" />
             </div>
 
             <div className="container1-image">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Mesas</h2>
               <ModalImage className='image-galeria' small={img6} medium={img6} alt="Lorem ipsum" />
             </div>
           </div>
           <div className="container1-oneimage">
           <div className="container1-image1">
-              <h2 className="name">Lorem ipsum</h2>
+              <h2 className="name">Entrepisos</h2>
               <ModalImage className='image-galeria'  small={img9} medium={img9} alt="Lorem ipsum" />
             </div>
           </div>

@@ -32,7 +32,7 @@ function Portadas({ image, texto }) {
            { <a
               style={{ textDecoration: "none",position:'relative',
               zIndex:'1'}}
-              href="https://wa.me/+5491125069028?text=Hola"
+              href="https://wa.me/+5491125069028?text=Hola, quiero cotizar mi proyecto!"
               target={"_blank"}
             >
               <Boton2 img={<BsWhatsapp />} texto="Enviar Whatsapp" />
