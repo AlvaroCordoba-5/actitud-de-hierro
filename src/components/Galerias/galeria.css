@@ -50,6 +50,10 @@
   object-fit: cover;
 }
 
+.fix{
+  width: 95% !important;
+  margin: 1em;
+}
 
 
 
