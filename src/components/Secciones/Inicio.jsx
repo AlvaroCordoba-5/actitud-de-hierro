@@ -36,11 +36,9 @@ function Inicio() {
               alt="obras"
             />
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
+              <h3>¿Tenes un proyecto y buscas alguien de confianza?</h3>
+              En ACTITUD DE HIERRO te ofrecemos un servicio profesional avalado por mas de 10 años de experiencia, personalizado 
+              y garantizandote resultados y entrega en tiempo y forma.
             </p>
           </div>
 
@@ -60,11 +58,9 @@ function Inicio() {
               alt="trabajos particulares"
             />
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
+              <h3>¿Estas buscando generar en nuevo ambiente en tu hogar?</h3>
+            En ADH hacemos realidad tu idea con nuestros trabajos personalizados, con prespuestos al instante 
+            para que puedas disfrutar de tu proyecto lo antes posible.
             </p>
           </div>
         </div>
