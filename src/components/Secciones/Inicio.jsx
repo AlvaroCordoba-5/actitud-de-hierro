@@ -36,9 +36,8 @@ function Inicio() {
               alt="obras"
             />
             <p>
-              <h3>¿Tenes un proyecto y buscas alguien de confianza?</h3>
-              En ACTITUD DE HIERRO te ofrecemos un servicio profesional avalado por mas de 10 años de experiencia, personalizado 
-              y garantizandote resultados y entrega en tiempo y forma.
+              <h3>¿Tenés un proyecto y buscas alguien de confianza?</h3>
+              En ACTITUD DE HIERRO te ofrecemos un servicio profesional avalado por más de 10 años de experiencia, personalizado y garantizándote resultados y entrega en tiempo y forma.
             </p>
           </div>
 
@@ -58,9 +57,8 @@ function Inicio() {
               alt="trabajos particulares"
             />
             <p>
-              <h3>¿Estas buscando generar en nuevo ambiente en tu hogar?</h3>
-            En ADH hacemos realidad tu idea con nuestros trabajos personalizados, con prespuestos al instante 
-            para que puedas disfrutar de tu proyecto lo antes posible.
+              <h3>¿Estás buscando generar en nuevo ambiente en tu hogar?</h3>
+              En ADH hacemos realidad tu idea con nuestros trabajos personalizados, con presupuestos al instante para que puedas disfrutar de tu proyecto lo antes posible.
             </p>
           </div>
         </div>
