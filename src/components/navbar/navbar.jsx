@@ -14,43 +14,9 @@ function Navbar() {
         <li>
           <Link to="/proyectos">
             Proyectos
-            <BiChevronDown style={{ cursor: "pointer" }}></BiChevronDown>{" "}
+           
           </Link>
-          <ul>
-            <li>
-              <Link to="/proyectos">Pergolas </Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Entrepisos</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Portones / Puertas</Link>
-            </li>
-
-            <li>
-              <Link to="/proyectos">Ventanas / Rejas</Link>
-            </li>
-
-            <li>
-              <Link to="/proyectos">Barandas</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Escaleras</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Parrillas</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Mesas</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Bares estilos industriales</Link>
-            </li>
-            <li>
-              <Link to="/proyectos">Sillas</Link>
-            </li>
-          </ul>
-        </li>
+          </li>
         <li>
           <Link to="/sobrenosotros">Sobre nosotros </Link>
         </li>

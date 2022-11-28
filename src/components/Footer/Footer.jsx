@@ -32,8 +32,8 @@ texto6='Ventanas clasicas y con diseños'
       <h1>Contacto</h1>
       <ul>
         
-        <li><BsWhatsapp size='1em' style={{marginRight:'0.5em'}}/>123456789</li>
-        <li><BiAt size='1.2em' style={{marginRight:'0.5em'}}/>actituddehierro@gmail.com</li>
+        <li><BsWhatsapp size='1em' style={{marginRight:'0.5em'}}/>11-2506-9028</li>
+        <li><BiAt size='1.2em' style={{marginRight:'0.5em'}}/>cotizaciones@actituddehierro.com</li>
         <li><IoLocationOutline size='1.2em' style={{marginRight:'0.5em'}}/>Pilar, Buenos Aires</li>
         
       </ul>
@@ -43,7 +43,7 @@ texto6='Ventanas clasicas y con diseños'
 titulo='Mapa del sitio'
 texto1='Inicio'
 texto2='Proyectos'
-texto3='Productos'
+
 texto4='Sobre nosotros'
 texto5='Contacto'
 />
