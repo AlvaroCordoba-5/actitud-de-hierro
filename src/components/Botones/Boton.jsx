@@ -5,7 +5,7 @@ function Boton({ texto }) {
   return (
     <>
       <a
-        href="http://api.whatsapp.com/send?phone=+5491123992937&text=Hola, quiero cotizar mi proyecto! "
+        href="http://api.whatsapp.com/send?phone=+5491125069028&text=Hola, quiero cotizar mi proyecto! "
         target="_blank"
         style={{ textDecoration: "none" }}
       >

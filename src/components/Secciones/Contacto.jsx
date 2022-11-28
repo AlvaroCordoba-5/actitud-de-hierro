@@ -31,7 +31,7 @@ function Contacto() {
                 size="1.7em"
                 style={{ marginLeft: "-0.2em" }}
               />
-              <li>actituddehierro@gmail.com</li>
+              <li>cotizaciones@actituddehierro.com</li>
             </div>
 
             <div className="icon-li">
